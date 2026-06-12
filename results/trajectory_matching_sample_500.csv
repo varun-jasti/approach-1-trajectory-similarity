@@ -1,0 +1,501 @@
+person_id,activity_step,activity,poi_safegraph_id,poi_name,distance_km,mfc_score,confidence_score,poi_category,employment,activity_taz,poi_taz,match_type,taz_ring_used,home_lat,home_lon,poi_lat,poi_lon
+1_1,0,home,,Home,0.0,1.0,5,home,non_worker,3398.0,3398.0,similarity_nearby,,28.603434,-81.49372,28.60343360900879,-81.49372100830078
+1_1,1,"Buy food (go to the restaurant, food, carry-out)",sg:d9bc7c87db5f4346b918ecd2b84d16f0,Ultimate Entertrainment Orlando,0.7585331426386492,0.83500004,4,Restaurants and Other Eating Places,non_worker,3398,3398,similarity_nearby,0,28.603434,-81.49372,28.6095662,-81.4903179
+1_1,2,"Buy goods (groceries, clothes, gas)",sg:56ee525e162746e8b9bf8304c137f09a,Dollar General,1.5003560781923582,0.85,4,"General Merchandise Stores, including Warehouse Clubs and Supercenters",non_worker,3398,3398,similarity_nearby,3,28.603434,-81.49372,28.613551,-81.483552
+1_1,3,home,,Home,0.0,1.0,5,home,non_worker,3398.0,3398.0,similarity_nearby,,28.603434,-81.49372,28.60343360900879,-81.49372100830078
+1_2,0,home,,Home,0.0,1.0,5,home,non_worker,3398.0,3398.0,taz_specific,,28.606087,-81.49252,28.60608673095703,-81.49252319335938
+1_2,1,Religious or community activities,sg:c87bda74ffd74d1fb09627266fbf876c,Holy Family Fitness Center,0.5303260779507796,0.85,5,Religious Organizations,non_worker,3398.0,3398.0,taz_specific,0,28.606087,-81.49252,28.6090274,-81.4968002
+1_2,2,"Buy goods (groceries, clothes, gas)",sg:139727c546c43cb291340e7bbc3b95ce,Zesty Brands,18.200734580062644,0.89500004,5,Bakeries and Tortilla Manufacturing,non_worker,4307.0,4307,taz_specific,1,28.606087,-81.49252,28.460357,-81.407687
+1_2,3,home,,Home,0.0,1.0,5,home,non_worker,3398.0,3398.0,taz_specific,,28.606087,-81.49252,28.60608673095703,-81.49252319335938
+2_1,0,home,,Home,0.0,1.0,5,home,non_worker,3398.0,3398.0,similarity_nearby,,28.605116,-81.488716,28.60511589050293,-81.48871612548828
+2_1,1,"Buy food (go to the restaurant, food, carry-out)",sg:d9bc7c87db5f4346b918ecd2b84d16f0,Ultimate Entertrainment Orlando,0.5189688262723093,0.83500004,4,Restaurants and Other Eating Places,non_worker,3398,3398,similarity_nearby,0,28.605116,-81.488716,28.6095662,-81.4903179
+2_1,2,"Buy goods (groceries, clothes, gas)",sg:56ee525e162746e8b9bf8304c137f09a,Dollar General,1.0648312383481962,0.7925,5,"General Merchandise Stores, including Warehouse Clubs and Supercenters",non_worker,3398,3398,similarity_nearby,0,28.605116,-81.488716,28.613551,-81.483552
+2_1,3,home,,Home,0.0,1.0,5,home,non_worker,3398.0,3398.0,similarity_nearby,,28.605116,-81.488716,28.60511589050293,-81.48871612548828
+2_2,0,home,,Home,0.0,1.0,5,home,non_worker,3398.0,3398.0,taz_specific,,28.611992,-81.493195,28.61199188232422,-81.49319458007812
+2_2,1,"Buy goods (groceries, clothes, gas)",sg:dca7843b63583f85824257bc05e4ea50,MoneyPass ATM,0.4870041392266491,0.95000005,5,Depository Credit Intermediation,non_worker,3398.0,3398.0,taz_specific,0,28.611992,-81.493195,28.612976,-81.498056
+2_2,2,Religious or community activities,sg:63c2e56ed10f4e59a371751d4f14e5ec,Canine Companions for Independence,0.16775642249332842,0.86,5,Social Advocacy Organizations,non_worker,3398.0,3398.0,taz_specific,0,28.611992,-81.493195,28.611332,-81.49474
+2_2,3,home,,Home,0.0,1.0,5,home,non_worker,3398.0,3398.0,taz_specific,,28.611992,-81.493195,28.61199188232422,-81.49319458007812
+3_1,0,home,,Home,0.0,1.0,5,home,non_worker,3398.0,3398.0,similarity_nearby,,28.602568,-81.495384,28.602567672729492,-81.4953842163086
+3_1,1,"Buy food (go to the restaurant, food, carry-out)",sg:d9bc7c87db5f4346b918ecd2b84d16f0,Ultimate Entertrainment Orlando,0.9220670840111633,0.84000003,5,Restaurants and Other Eating Places,non_worker,3398,3398,similarity_nearby,0,28.602568,-81.495384,28.6095662,-81.4903179
+3_1,2,"Buy goods (groceries, clothes, gas)",sg:56ee525e162746e8b9bf8304c137f09a,Dollar General,1.6809846158914192,0.91,5,"General Merchandise Stores, including Warehouse Clubs and Supercenters",non_worker,3398,3398,similarity_nearby,3,28.602568,-81.495384,28.613551,-81.483552
+3_1,3,home,,Home,0.0,1.0,5,home,non_worker,3398.0,3398.0,similarity_nearby,,28.602568,-81.495384,28.602567672729492,-81.4953842163086
+3_2,0,home,,Home,0.0,1.0,5,home,non_worker,3398.0,3398.0,taz_specific,,28.60939,-81.490395,28.609390258789062,-81.49039459228516
+3_2,1,"Buy food (go to the restaurant, food, carry-out)",sg:d9bc7c87db5f4346b918ecd2b84d16f0,Ultimate Entertrainment Orlando,0.02094731498888444,0.84000003,5,Restaurants and Other Eating Places,non_worker,3398.0,3398.0,taz_specific,0,28.60939,-81.490395,28.6095662,-81.4903179
+3_2,2,"Buy goods (groceries, clothes, gas)",sg:56ee525e162746e8b9bf8304c137f09a,Dollar General,0.8125306421939976,0.91,5,"General Merchandise Stores, including Warehouse Clubs and Supercenters",non_worker,3398.0,3398,taz_specific,3,28.60939,-81.490395,28.613551,-81.483552
+3_2,3,home,,Home,0.0,1.0,5,home,non_worker,3398.0,3398.0,taz_specific,,28.60939,-81.490395,28.609390258789062,-81.49039459228516
+4_1,0,home,,Home,0.0,1.0,5,home,non_worker,3398.0,3398.0,similarity_nearby,,28.602468,-81.49439,28.602468490600586,-81.49439239501953
+4_1,1,"Buy food (go to the restaurant, food, carry-out)",sg:d9bc7c87db5f4346b918ecd2b84d16f0,Ultimate Entertrainment Orlando,0.8837958202691659,0.75000006,5,Restaurants and Other Eating Places,non_worker,3398,3398,similarity_nearby,0,28.602468,-81.49439,28.6095662,-81.4903179
+4_1,2,"Buy goods (groceries, clothes, gas)",sg:56ee525e162746e8b9bf8304c137f09a,Dollar General,1.6243385930323015,0.855,4,"General Merchandise Stores, including Warehouse Clubs and Supercenters",non_worker,3398,3398,similarity_nearby,0,28.602468,-81.49439,28.613551,-81.483552
+4_1,3,home,,Home,0.0,1.0,5,home,non_worker,3398.0,3398.0,similarity_nearby,,28.602468,-81.49439,28.602468490600586,-81.49439239501953
+4_2,0,home,,Home,0.0,1.0,5,home,non_worker,3398.0,3398.0,taz_specific,,28.60943,-81.49026,28.60943031311035,-81.4902572631836
+4_2,1,"Buy food (go to the restaurant, food, carry-out)",sg:d9bc7c87db5f4346b918ecd2b84d16f0,Ultimate Entertrainment Orlando,0.016227995319427414,0.84000003,5,Restaurants and Other Eating Places,non_worker,3398.0,3398.0,taz_specific,0,28.60943,-81.49026,28.6095662,-81.4903179
+4_2,2,"Buy goods (groceries, clothes, gas)",sg:2c74f701f881335ba87733d595fbf47c,Western Union,0.7966361979357095,1.0,5,Activities Related to Credit Intermediation,non_worker,3398.0,3398.0,taz_specific,0,28.60943,-81.49026,28.613509,-81.483548
+4_2,3,home,,Home,0.0,1.0,5,home,non_worker,3398.0,3398.0,taz_specific,,28.60943,-81.49026,28.60943031311035,-81.4902572631836
+5_1,0,home,,Home,0.0,1.0,5,home,non_worker,3398.0,3398.0,similarity_nearby,,28.613752,-81.486244,28.613752365112305,-81.48624420166016
+5_1,1,"Buy food (go to the restaurant, food, carry-out)",sg:dc38ceb4370433f786cac71d9df1a587,New Beginning Pincho Y Algo Mas,0.32277570560185914,0.76000005,4,Restaurants and Other Eating Places,non_worker,3398,3398,similarity_nearby,3,28.613752,-81.486244,28.613641,-81.48294
+5_1,2,"Buy goods (groceries, clothes, gas)",sg:56ee525e162746e8b9bf8304c137f09a,Dollar General,0.2637502392151902,0.6525,3,"General Merchandise Stores, including Warehouse Clubs and Supercenters",non_worker,3398,3398,similarity_nearby,0,28.613752,-81.486244,28.613551,-81.483552
+5_1,3,home,,Home,0.0,1.0,5,home,non_worker,3398.0,3398.0,similarity_nearby,,28.613752,-81.486244,28.613752365112305,-81.48624420166016
+5_2,0,home,,Home,0.0,1.0,5,home,non_worker,3398.0,3398.0,taz_specific,,28.60882,-81.48789,28.60881996154785,-81.4878921508789
+5_2,1,Religious or community activities,sg:49c07f4a093e4dbcbb883214c464dbfe,Eglise De Dieu Maison De Reconfort Inc,0.5380345844638058,0.85,5,Religious Organizations,non_worker,3398.0,3398.0,taz_specific,0,28.60882,-81.48789,28.60417,-81.486368
+5_2,2,"Buy goods (groceries, clothes, gas)",sg:56ee525e162746e8b9bf8304c137f09a,Dollar General,0.6754590060912814,0.8625,5,"General Merchandise Stores, including Warehouse Clubs and Supercenters",non_worker,3398.0,3398,taz_specific,3,28.60882,-81.48789,28.613551,-81.483552
+5_2,3,home,,Home,0.0,1.0,5,home,non_worker,3398.0,3398.0,taz_specific,,28.60882,-81.48789,28.60881996154785,-81.4878921508789
+6_1,0,home,,Home,0.0,1.0,5,home,worker,3398.0,3398.0,similarity_nearby,,28.603712,-81.494865,28.60371208190918,-81.49486541748047
+6_1,1,"Buy goods (groceries, clothes, gas)",sg:bf5f183964ad3b269851f42e68d6ab38,Good Follows Food Mart,3.5234750647052597,0.86,5,Specialty Food Stores,worker,3514,3514,similarity_nearby,3,28.603712,-81.494865,28.57678,-81.475851
+6_1,2,"Work-related activity, or volunteer",sg:0da4a89abe0c3c48a6af802783f527f2,Studio cheve,3.482901713884332,0.855,4,Management of Companies and Enterprises,worker,3514,3514,similarity_nearby,0,28.603712,-81.494865,28.577329,-81.475638
+6_1,3,home,,Home,0.0,1.0,5,home,worker,3398.0,3398.0,similarity_nearby,,28.603712,-81.494865,28.60371208190918,-81.49486541748047
+6_2,0,home,,Home,0.0,1.0,5,home,non_worker,3398.0,3398.0,taz_specific,,28.606365,-81.4917,28.606365203857422,-81.49169921875
+6_2,1,"Buy goods (groceries, clothes, gas)",sg:8fcc2a1db9c13759a1cf616a948e0508,Western Union,0.9196260408635566,0.95000005,5,Activities Related to Credit Intermediation,non_worker,3398.0,3398.0,taz_specific,0,28.606365,-81.4917,28.599451,-81.496868
+6_2,2,Religious or community activities,sg:c87bda74ffd74d1fb09627266fbf876c,Holy Family Fitness Center,0.5793029634408313,0.86,5,Religious Organizations,non_worker,3398.0,3398.0,taz_specific,0,28.606365,-81.4917,28.6090274,-81.4968002
+6_2,3,home,,Home,0.0,1.0,5,home,non_worker,3398.0,3398.0,taz_specific,,28.606365,-81.4917,28.606365203857422,-81.49169921875
+7_1,0,home,,Home,0.0,1.0,5,home,non_worker,3398.0,3398.0,similarity_nearby,,28.612904,-81.48868,28.612903594970703,-81.48867797851562
+7_1,1,"Buy food (go to the restaurant, food, carry-out)",sg:d9bc7c87db5f4346b918ecd2b84d16f0,Ultimate Entertrainment Orlando,0.40415727015710734,0.8225,5,Restaurants and Other Eating Places,non_worker,3398,3398,similarity_nearby,0,28.612904,-81.48868,28.6095662,-81.4903179
+7_1,2,"Buy goods (groceries, clothes, gas)",sg:56ee525e162746e8b9bf8304c137f09a,Dollar General,0.5055241142882274,0.91,5,"General Merchandise Stores, including Warehouse Clubs and Supercenters",non_worker,3398,3398,similarity_nearby,3,28.612904,-81.48868,28.613551,-81.483552
+7_1,3,home,,Home,0.0,1.0,5,home,non_worker,3398.0,3398.0,similarity_nearby,,28.612904,-81.48868,28.612903594970703,-81.48867797851562
+7_2,0,home,,Home,0.0,1.0,5,home,non_worker,3398.0,3398.0,taz_specific,,28.60413,-81.49046,28.604129791259766,-81.49046325683594
+7_2,1,"Buy food (go to the restaurant, food, carry-out)",sg:d9bc7c87db5f4346b918ecd2b84d16f0,Ultimate Entertrainment Orlando,0.6046675922909454,0.94000006,5,Restaurants and Other Eating Places,non_worker,3398.0,3398.0,taz_specific,0,28.60413,-81.49046,28.6095662,-81.4903179
+7_2,2,"Buy goods (groceries, clothes, gas)",sg:8fcc2a1db9c13759a1cf616a948e0508,Western Union,0.8134044692087784,1.0,5,Activities Related to Credit Intermediation,non_worker,3398.0,3398.0,taz_specific,0,28.60413,-81.49046,28.599451,-81.496868
+7_2,3,home,,Home,0.0,1.0,5,home,non_worker,3398.0,3398.0,taz_specific,,28.60413,-81.49046,28.604129791259766,-81.49046325683594
+8_1,0,home,,Home,0.0,1.0,5,home,non_worker,3398.0,3398.0,similarity_nearby,,28.60899,-81.49057,28.608989715576172,-81.49057006835938
+8_1,1,"Buy food (go to the restaurant, food, carry-out)",sg:d9bc7c87db5f4346b918ecd2b84d16f0,Ultimate Entertrainment Orlando,0.06866621069649068,0.82250005,5,Restaurants and Other Eating Places,non_worker,3398,3398,similarity_nearby,0,28.60899,-81.49057,28.6095662,-81.4903179
+8_1,2,"Buy goods (groceries, clothes, gas)",sg:56ee525e162746e8b9bf8304c137f09a,Dollar General,0.8523964553884913,0.82250005,5,"General Merchandise Stores, including Warehouse Clubs and Supercenters",non_worker,3398,3398,similarity_nearby,0,28.60899,-81.49057,28.613551,-81.483552
+8_1,3,home,,Home,0.0,1.0,5,home,non_worker,3398.0,3398.0,similarity_nearby,,28.60899,-81.49057,28.608989715576172,-81.49057006835938
+8_2,0,home,,Home,0.0,1.0,5,home,non_worker,3398.0,3398.0,taz_specific,,28.609669,-81.48468,28.609668731689453,-81.48468017578125
+8_2,1,Religious or community activities,sg:fbc82f1a82cf481581e3475462399e03,Theolonias Ministries Electrifying & Edifying Signature Series,0.3709525341372416,0.85,4,Religious Organizations,non_worker,3398.0,3398.0,taz_specific,0,28.609669,-81.48468,28.606955,-81.48247
+8_2,2,"Buy goods (groceries, clothes, gas)",sg:ddbec1677d683bdeb9d6cb762157b44b,Boss Beauty & Lashes,18.88219031696324,0.8525,5,Personal Care Services,non_worker,4307.0,4307.0,taz_specific,0,28.609669,-81.48468,28.454139,-81.407092
+8_2,3,home,,Home,0.0,1.0,5,home,non_worker,3398.0,3398.0,taz_specific,,28.609669,-81.48468,28.609668731689453,-81.48468017578125
+9_1,0,home,,Home,0.0,1.0,5,home,non_worker,3398.0,3398.0,similarity_nearby,,28.608454,-81.4913,28.60845375061035,-81.49130249023438
+9_1,1,"Buy food (go to the restaurant, food, carry-out)",sg:d9bc7c87db5f4346b918ecd2b84d16f0,Ultimate Entertrainment Orlando,0.15665053840427004,0.895,4,Restaurants and Other Eating Places,non_worker,3398,3398,similarity_nearby,0,28.608454,-81.4913,28.6095662,-81.4903179
+9_1,2,"Buy goods (groceries, clothes, gas)",sg:56ee525e162746e8b9bf8304c137f09a,Dollar General,0.9453369731168255,0.89500004,5,"General Merchandise Stores, including Warehouse Clubs and Supercenters",non_worker,3398,3398,similarity_nearby,0,28.608454,-81.4913,28.613551,-81.483552
+9_1,3,home,,Home,0.0,1.0,5,home,non_worker,3398.0,3398.0,similarity_nearby,,28.608454,-81.4913,28.60845375061035,-81.49130249023438
+9_2,0,home,,Home,0.0,1.0,5,home,non_worker,3398.0,3398.0,taz_specific,,28.608452,-81.49135,28.60845184326172,-81.49134826660156
+9_2,1,"Buy food (go to the restaurant, food, carry-out)",sg:d9bc7c87db5f4346b918ecd2b84d16f0,Ultimate Entertrainment Orlando,0.1595959818704331,0.84000003,5,Restaurants and Other Eating Places,non_worker,3398.0,3398.0,taz_specific,0,28.608452,-81.49135,28.6095662,-81.4903179
+9_2,2,"Buy goods (groceries, clothes, gas)",sg:dca7843b63583f85824257bc05e4ea50,MoneyPass ATM,0.8257261384384459,1.0,5,Depository Credit Intermediation,non_worker,3398.0,3398.0,taz_specific,0,28.608452,-81.49135,28.612976,-81.498056
+9_2,3,home,,Home,0.0,1.0,5,home,non_worker,3398.0,3398.0,taz_specific,,28.608452,-81.49135,28.60845184326172,-81.49134826660156
+10_1,0,home,,Home,0.0,1.0,5,home,non_worker,3398.0,3398.0,similarity_nearby,,28.602707,-81.493835,28.602706909179688,-81.49383544921875
+10_1,1,"Buy food (go to the restaurant, food, carry-out)",sg:d9bc7c87db5f4346b918ecd2b84d16f0,Ultimate Entertrainment Orlando,0.8364538281679891,0.88,5,Restaurants and Other Eating Places,non_worker,3398,3398,similarity_nearby,0,28.602707,-81.493835,28.6095662,-81.4903179
+10_1,2,"Buy goods (groceries, clothes, gas)",sg:56ee525e162746e8b9bf8304c137f09a,Dollar General,1.5689875967805915,0.94,5,"General Merchandise Stores, including Warehouse Clubs and Supercenters",non_worker,3398,3398,similarity_nearby,0,28.602707,-81.493835,28.613551,-81.483552
+10_1,3,home,,Home,0.0,1.0,5,home,non_worker,3398.0,3398.0,similarity_nearby,,28.602707,-81.493835,28.602706909179688,-81.49383544921875
+10_2,0,home,,Home,0.0,1.0,5,home,non_worker,3398.0,3398.0,taz_specific,,28.612295,-81.48798,28.612295150756836,-81.48798370361328
+10_2,1,Religious or community activities,sg:f3b5481b6f734e26be99e8d3712c450b,Orlando Free Presbyterian Church,0.3311273775842748,0.85,5,Religious Organizations,non_worker,3398.0,3398.0,taz_specific,0,28.612295,-81.48798,28.613455,-81.491108
+10_2,2,"Buy goods (groceries, clothes, gas)",sg:2c74f701f881335ba87733d595fbf47c,Western Union,0.45354199848769633,0.90000004,5,Activities Related to Credit Intermediation,non_worker,3398.0,3398.0,taz_specific,0,28.612295,-81.48798,28.613509,-81.483548
+10_2,3,home,,Home,0.0,1.0,5,home,non_worker,3398.0,3398.0,taz_specific,,28.612295,-81.48798,28.612295150756836,-81.48798370361328
+11_1,0,home,,Home,0.0,1.0,5,home,worker,3398.0,3398.0,similarity_nearby,,28.604906,-81.490555,28.60490608215332,-81.49055480957031
+11_1,1,"Buy goods (groceries, clothes, gas)",sg:bf5f183964ad3b269851f42e68d6ab38,Good Follows Food Mart,3.441237300647096,0.6725,3,Specialty Food Stores,worker,3514,3514,similarity_nearby,3,28.604906,-81.490555,28.57678,-81.475851
+11_1,2,"Work-related activity, or volunteer",sg:0da4a89abe0c3c48a6af802783f527f2,Studio cheve,3.394721417014476,0.855,4,Management of Companies and Enterprises,worker,3514,3514,similarity_nearby,0,28.604906,-81.490555,28.577329,-81.475638
+11_1,3,home,,Home,0.0,1.0,5,home,worker,3398.0,3398.0,similarity_nearby,,28.604906,-81.490555,28.60490608215332,-81.49055480957031
+11_2,0,home,,Home,0.0,1.0,5,home,non_worker,3398.0,3398.0,taz_specific,,28.612982,-81.48924,28.61298179626465,-81.48924255371094
+11_2,1,"Buy food (go to the restaurant, food, carry-out)",sg:d9bc7c87db5f4346b918ecd2b84d16f0,Ultimate Entertrainment Orlando,0.39403658462335867,0.88,5,Restaurants and Other Eating Places,non_worker,3398.0,3398.0,taz_specific,0,28.612982,-81.48924,28.6095662,-81.4903179
+11_2,2,"Buy goods (groceries, clothes, gas)",sg:2c74f701f881335ba87733d595fbf47c,Western Union,0.5589561552175284,1.0,5,Activities Related to Credit Intermediation,non_worker,3398.0,3398.0,taz_specific,0,28.612982,-81.48924,28.613509,-81.483548
+11_2,3,home,,Home,0.0,1.0,5,home,non_worker,3398.0,3398.0,taz_specific,,28.612982,-81.48924,28.61298179626465,-81.48924255371094
+12_1,0,home,,Home,0.0,1.0,5,home,non_worker,3398.0,3398.0,similarity_nearby,,28.606543,-81.49009,28.606542587280273,-81.4900894165039
+12_1,1,"Buy food (go to the restaurant, food, carry-out)",sg:d9bc7c87db5f4346b918ecd2b84d16f0,Ultimate Entertrainment Orlando,0.33694943302425495,0.6925,3,Restaurants and Other Eating Places,non_worker,3398,3398,similarity_nearby,3,28.606543,-81.49009,28.6095662,-81.4903179
+12_1,2,"Buy goods (groceries, clothes, gas)",sg:56ee525e162746e8b9bf8304c137f09a,Dollar General,1.0072576880742379,0.94,5,"General Merchandise Stores, including Warehouse Clubs and Supercenters",non_worker,3398,3398,similarity_nearby,0,28.606543,-81.49009,28.613551,-81.483552
+12_1,3,home,,Home,0.0,1.0,5,home,non_worker,3398.0,3398.0,similarity_nearby,,28.606543,-81.49009,28.606542587280273,-81.4900894165039
+12_2,0,home,,Home,0.0,1.0,5,home,non_worker,3398.0,3398.0,taz_specific,,28.611757,-81.49756,28.611757278442383,-81.49755859375
+12_2,1,Religious or community activities,sg:66efd9ff58cd39cbafc2114a50b55645,Orlando Christ Community Church,0.10737002199289244,0.85,5,Religious Organizations,non_worker,3398.0,3398.0,taz_specific,0,28.611757,-81.49756,28.610802,-81.497719
+12_2,2,"Buy goods (groceries, clothes, gas)",sg:097d6883c17745389ef7857916173fc6,Advance Auto Parts,0.12883279949087395,1.0,5,"Automotive Parts, Accessories, and Tire Stores",non_worker,3398.0,3398.0,taz_specific,0,28.611757,-81.49756,28.612128,-81.498809
+12_2,3,home,,Home,0.0,1.0,5,home,non_worker,3398.0,3398.0,taz_specific,,28.611757,-81.49756,28.611757278442383,-81.49755859375
+13_1,0,home,,Home,0.0,1.0,5,home,non_worker,3398.0,3398.0,similarity_nearby,,28.608278,-81.49026,28.608278274536133,-81.4902572631836
+13_1,1,"Buy food (go to the restaurant, food, carry-out)",sg:d9bc7c87db5f4346b918ecd2b84d16f0,Ultimate Entertrainment Orlando,0.1433330559794947,0.85,5,Restaurants and Other Eating Places,non_worker,3398,3398,similarity_nearby,0,28.608278,-81.49026,28.6095662,-81.4903179
+13_1,2,"Buy goods (groceries, clothes, gas)",sg:56ee525e162746e8b9bf8304c137f09a,Dollar General,0.8787387069630538,0.93249995,5,"General Merchandise Stores, including Warehouse Clubs and Supercenters",non_worker,3398,3398,similarity_nearby,0,28.608278,-81.49026,28.613551,-81.483552
+13_1,3,home,,Home,0.0,1.0,5,home,non_worker,3398.0,3398.0,similarity_nearby,,28.608278,-81.49026,28.608278274536133,-81.4902572631836
+13_2,0,home,,Home,0.0,1.0,5,home,non_worker,3398.0,3398.0,taz_specific,,28.611588,-81.49064,28.611587524414062,-81.49063873291016
+13_2,1,Religious or community activities,sg:f3b5481b6f734e26be99e8d3712c450b,Orlando Free Presbyterian Church,0.21264632483281948,0.85,5,Religious Organizations,non_worker,3398.0,3398.0,taz_specific,0,28.611588,-81.49064,28.613455,-81.491108
+13_2,2,"Buy goods (groceries, clothes, gas)",sg:2c74f701f881335ba87733d595fbf47c,Western Union,0.7243920249306478,1.0,5,Activities Related to Credit Intermediation,non_worker,3398.0,3398.0,taz_specific,0,28.611588,-81.49064,28.613509,-81.483548
+13_2,3,home,,Home,0.0,1.0,5,home,non_worker,3398.0,3398.0,taz_specific,,28.611588,-81.49064,28.611587524414062,-81.49063873291016
+14_1,0,home,,Home,0.0,1.0,5,home,non_worker,3398.0,3398.0,similarity_nearby,,28.604748,-81.49211,28.604747772216797,-81.49211120605469
+14_1,1,"Buy food (go to the restaurant, food, carry-out)",sg:d9bc7c87db5f4346b918ecd2b84d16f0,Ultimate Entertrainment Orlando,0.5636599523140392,0.8225,5,Restaurants and Other Eating Places,non_worker,3398,3398,similarity_nearby,0,28.604748,-81.49211,28.6095662,-81.4903179
+14_1,2,"Buy goods (groceries, clothes, gas)",sg:56ee525e162746e8b9bf8304c137f09a,Dollar General,1.286981075409797,0.855,4,"General Merchandise Stores, including Warehouse Clubs and Supercenters",non_worker,3398,3398,similarity_nearby,0,28.604748,-81.49211,28.613551,-81.483552
+14_1,3,home,,Home,0.0,1.0,5,home,non_worker,3398.0,3398.0,similarity_nearby,,28.604748,-81.49211,28.604747772216797,-81.49211120605469
+14_2,0,home,,Home,0.0,1.0,5,home,non_worker,3398.0,3398.0,taz_specific,,28.60946,-81.49157,28.609460830688477,-81.49156951904297
+14_2,1,"Buy food (go to the restaurant, food, carry-out)",sg:d9bc7c87db5f4346b918ecd2b84d16f0,Ultimate Entertrainment Orlando,0.1227415578841219,0.84000003,5,Restaurants and Other Eating Places,non_worker,3398.0,3398.0,taz_specific,0,28.60946,-81.49157,28.6095662,-81.4903179
+14_2,2,"Buy goods (groceries, clothes, gas)",sg:56ee525e162746e8b9bf8304c137f09a,Dollar General,0.9051950520365759,0.91,5,"General Merchandise Stores, including Warehouse Clubs and Supercenters",non_worker,3398.0,3398,taz_specific,3,28.60946,-81.49157,28.613551,-81.483552
+14_2,3,home,,Home,0.0,1.0,5,home,non_worker,3398.0,3398.0,taz_specific,,28.60946,-81.49157,28.609460830688477,-81.49156951904297
+15_1,0,home,,Home,0.0,1.0,5,home,non_worker,3398.0,3398.0,similarity_nearby,,28.61129,-81.48703,28.611289978027344,-81.48703002929688
+15_1,1,"Buy food (go to the restaurant, food, carry-out)",sg:d9bc7c87db5f4346b918ecd2b84d16f0,Ultimate Entertrainment Orlando,0.37383267516080165,0.8225,5,Restaurants and Other Eating Places,non_worker,3398,3398,similarity_nearby,0,28.61129,-81.48703,28.6095662,-81.4903179
+15_1,2,"Buy goods (groceries, clothes, gas)",sg:56ee525e162746e8b9bf8304c137f09a,Dollar General,0.4224645916460091,0.795,4,"General Merchandise Stores, including Warehouse Clubs and Supercenters",non_worker,3398,3398,similarity_nearby,0,28.61129,-81.48703,28.613551,-81.483552
+15_1,3,home,,Home,0.0,1.0,5,home,non_worker,3398.0,3398.0,similarity_nearby,,28.61129,-81.48703,28.611289978027344,-81.48703002929688
+15_2,0,home,,Home,0.0,1.0,5,home,non_worker,3398.0,3398.0,taz_specific,,28.6125,-81.4891,28.612499237060547,-81.48909759521484
+15_2,1,"Buy goods (groceries, clothes, gas)",sg:2c74f701f881335ba87733d595fbf47c,Western Union,0.5532382353092262,0.95000005,5,Activities Related to Credit Intermediation,non_worker,3398.0,3398.0,taz_specific,0,28.6125,-81.4891,28.613509,-81.483548
+15_2,2,Religious or community activities,sg:f3b5481b6f734e26be99e8d3712c450b,Orlando Free Presbyterian Church,0.22317504444901776,0.86,5,Religious Organizations,non_worker,3398.0,3398.0,taz_specific,0,28.6125,-81.4891,28.613455,-81.491108
+15_2,3,home,,Home,0.0,1.0,5,home,non_worker,3398.0,3398.0,taz_specific,,28.6125,-81.4891,28.612499237060547,-81.48909759521484
+16_1,0,home,,Home,0.0,1.0,5,home,worker,3398.0,3398.0,similarity_nearby,,28.608923,-81.48622,28.608922958374023,-81.48622131347656
+16_1,1,"Buy goods (groceries, clothes, gas)",sg:0aeab82a29d04498908556b238cbbc68,Five Fortune Grocery and Deli,3.71466804633457,0.90000004,5,Grocery Stores,worker,3514,3514,similarity_nearby,0,28.608923,-81.48622,28.576795,-81.475795
+16_1,2,"Work-related activity, or volunteer",sg:0da4a89abe0c3c48a6af802783f527f2,Studio cheve,3.661894217485403,0.90000004,5,Management of Companies and Enterprises,worker,3514,3514,similarity_nearby,0,28.608923,-81.48622,28.577329,-81.475638
+16_1,3,home,,Home,0.0,1.0,5,home,worker,3398.0,3398.0,similarity_nearby,,28.608923,-81.48622,28.608922958374023,-81.48622131347656
+16_2,0,home,,Home,0.0,1.0,5,home,non_worker,3398.0,3398.0,taz_specific,,28.604815,-81.49199,28.604814529418945,-81.49198913574219
+16_2,1,Religious or community activities,sg:49c07f4a093e4dbcbb883214c464dbfe,Eglise De Dieu Maison De Reconfort Inc,0.5534128198862632,0.85,4,Religious Organizations,non_worker,3398.0,3398.0,taz_specific,0,28.604815,-81.49199,28.60417,-81.486368
+16_2,2,"Buy goods (groceries, clothes, gas)",sg:cc4ca270ef6531b2b8ea335b99b481d1,Rubio Arts,18.977830793181322,0.90000004,5,Other Miscellaneous Store Retailers,non_worker,4307.0,4307.0,taz_specific,0,28.604815,-81.49199,28.449017,-81.412675
+16_2,3,home,,Home,0.0,1.0,5,home,non_worker,3398.0,3398.0,taz_specific,,28.604815,-81.49199,28.604814529418945,-81.49198913574219
+17_1,0,home,,Home,0.0,1.0,5,home,non_worker,3398.0,3398.0,similarity_nearby,,28.604427,-81.489494,28.604427337646484,-81.48949432373047
+17_1,1,"Buy food (go to the restaurant, food, carry-out)",sg:d9bc7c87db5f4346b918ecd2b84d16f0,Ultimate Entertrainment Orlando,0.577043711391803,0.8125,5,Restaurants and Other Eating Places,non_worker,3398,3398,similarity_nearby,3,28.604427,-81.489494,28.6095662,-81.4903179
+17_1,2,"Buy goods (groceries, clothes, gas)",sg:56ee525e162746e8b9bf8304c137f09a,Dollar General,1.1686388355912352,0.855,4,"General Merchandise Stores, including Warehouse Clubs and Supercenters",non_worker,3398,3398,similarity_nearby,0,28.604427,-81.489494,28.613551,-81.483552
+17_1,3,home,,Home,0.0,1.0,5,home,non_worker,3398.0,3398.0,similarity_nearby,,28.604427,-81.489494,28.604427337646484,-81.48949432373047
+17_2,0,home,,Home,0.0,1.0,5,home,non_worker,3398.0,3398.0,taz_specific,,28.609156,-81.48523,28.609155654907227,-81.4852294921875
+17_2,1,Religious or community activities,sg:fbc82f1a82cf481581e3475462399e03,Theolonias Ministries Electrifying & Edifying Signature Series,0.36392996150278184,0.85,5,Religious Organizations,non_worker,3398.0,3398.0,taz_specific,0,28.609156,-81.48523,28.606955,-81.48247
+17_2,2,"Buy goods (groceries, clothes, gas)",sg:139727c546c43cb291340e7bbc3b95ce,Zesty Brands,18.19721416113121,0.89500004,5,Bakeries and Tortilla Manufacturing,non_worker,4307.0,4307,taz_specific,1,28.609156,-81.48523,28.460357,-81.407687
+17_2,3,home,,Home,0.0,1.0,5,home,non_worker,3398.0,3398.0,taz_specific,,28.609156,-81.48523,28.609155654907227,-81.4852294921875
+18_1,0,home,,Home,0.0,1.0,5,home,non_worker,3398.0,3398.0,similarity_nearby,,28.605371,-81.49381,28.605371475219727,-81.49381256103516
+18_1,1,"Buy food (go to the restaurant, food, carry-out)",sg:d9bc7c87db5f4346b918ecd2b84d16f0,Ultimate Entertrainment Orlando,0.5778773002197771,0.7925,4,Restaurants and Other Eating Places,non_worker,3398,3398,similarity_nearby,3,28.605371,-81.49381,28.6095662,-81.4903179
+18_1,2,"Buy goods (groceries, clothes, gas)",sg:56ee525e162746e8b9bf8304c137f09a,Dollar General,1.3529496047041918,0.76000005,4,"General Merchandise Stores, including Warehouse Clubs and Supercenters",non_worker,3398,3398,similarity_nearby,0,28.605371,-81.49381,28.613551,-81.483552
+18_1,3,home,,Home,0.0,1.0,5,home,non_worker,3398.0,3398.0,similarity_nearby,,28.605371,-81.49381,28.605371475219727,-81.49381256103516
+18_2,0,home,,Home,0.0,1.0,5,home,non_worker,3398.0,3398.0,taz_specific,,28.60881,-81.48667,28.608810424804688,-81.4866714477539
+18_2,1,Religious or community activities,sg:fbc82f1a82cf481581e3475462399e03,Theolonias Ministries Electrifying & Edifying Signature Series,0.45911255783619076,0.85,5,Religious Organizations,non_worker,3398.0,3398.0,taz_specific,0,28.60881,-81.48667,28.606955,-81.48247
+18_2,2,"Buy goods (groceries, clothes, gas)",sg:2c74f701f881335ba87733d595fbf47c,Western Union,0.6049188681621666,1.0,5,Activities Related to Credit Intermediation,non_worker,3398.0,3398.0,taz_specific,0,28.60881,-81.48667,28.613509,-81.483548
+18_2,3,home,,Home,0.0,1.0,5,home,non_worker,3398.0,3398.0,taz_specific,,28.60881,-81.48667,28.608810424804688,-81.4866714477539
+19_1,0,home,,Home,0.0,1.0,5,home,non_worker,3398.0,3398.0,similarity_nearby,,28.60216,-81.4942,28.60215950012207,-81.49420166015625
+19_1,1,"Buy food (go to the restaurant, food, carry-out)",sg:d9bc7c87db5f4346b918ecd2b84d16f0,Ultimate Entertrainment Orlando,0.906665968971688,0.90000004,5,Restaurants and Other Eating Places,non_worker,3398,3398,similarity_nearby,0,28.60216,-81.4942,28.6095662,-81.4903179
+19_1,2,"Buy goods (groceries, clothes, gas)",sg:56ee525e162746e8b9bf8304c137f09a,Dollar General,1.6386820731183018,0.76250005,4,"General Merchandise Stores, including Warehouse Clubs and Supercenters",non_worker,3398,3398,similarity_nearby,0,28.60216,-81.4942,28.613551,-81.483552
+19_1,3,home,,Home,0.0,1.0,5,home,non_worker,3398.0,3398.0,similarity_nearby,,28.60216,-81.4942,28.60215950012207,-81.49420166015625
+19_2,0,home,,Home,0.0,1.0,5,home,non_worker,3398.0,3398.0,taz_specific,,28.604212,-81.49248,28.604211807250977,-81.49247741699219
+19_2,1,Religious or community activities,sg:49c07f4a093e4dbcbb883214c464dbfe,Eglise De Dieu Maison De Reconfort Inc,0.5964399323412923,0.85,5,Religious Organizations,non_worker,3398.0,3398.0,taz_specific,0,28.604212,-81.49248,28.60417,-81.486368
+19_2,2,"Buy goods (groceries, clothes, gas)",sg:139727c546c43cb291340e7bbc3b95ce,Zesty Brands,18.01334702662109,0.89500004,5,Bakeries and Tortilla Manufacturing,non_worker,4307.0,4307,taz_specific,1,28.604212,-81.49248,28.460357,-81.407687
+19_2,3,home,,Home,0.0,1.0,5,home,non_worker,3398.0,3398.0,taz_specific,,28.604212,-81.49248,28.604211807250977,-81.49247741699219
+20_1,0,home,,Home,0.0,1.0,5,home,non_worker,3398.0,3398.0,similarity_nearby,,28.60782,-81.48808,28.607820510864258,-81.48808288574219
+20_1,1,"Buy food (go to the restaurant, food, carry-out)",sg:d9bc7c87db5f4346b918ecd2b84d16f0,Ultimate Entertrainment Orlando,0.2920308257414251,0.84000003,4,Restaurants and Other Eating Places,non_worker,3398,3398,similarity_nearby,3,28.60782,-81.48808,28.6095662,-81.4903179
+20_1,2,"Buy goods (groceries, clothes, gas)",sg:56ee525e162746e8b9bf8304c137f09a,Dollar General,0.7756600865256861,1.0,5,"General Merchandise Stores, including Warehouse Clubs and Supercenters",non_worker,3398,3398,similarity_nearby,0,28.60782,-81.48808,28.613551,-81.483552
+20_1,3,home,,Home,0.0,1.0,5,home,non_worker,3398.0,3398.0,similarity_nearby,,28.60782,-81.48808,28.607820510864258,-81.48808288574219
+20_2,0,home,,Home,0.0,1.0,5,home,non_worker,3398.0,3398.0,taz_specific,,28.613327,-81.48699,28.613327026367188,-81.48699188232422
+20_2,1,Religious or community activities,sg:f3b5481b6f734e26be99e8d3712c450b,Orlando Free Presbyterian Church,0.40204595632406886,0.85,4,Religious Organizations,non_worker,3398.0,3398.0,taz_specific,0,28.613327,-81.48699,28.613455,-81.491108
+20_2,2,"Buy goods (groceries, clothes, gas)",sg:302f0da52bae43209ec83dc59ff318f2,American Freight,18.9970235095112,0.90000004,5,Furniture Stores,non_worker,4307.0,4307.0,taz_specific,0,28.613327,-81.48699,28.456847,-81.408941
+20_2,3,home,,Home,0.0,1.0,5,home,non_worker,3398.0,3398.0,taz_specific,,28.613327,-81.48699,28.613327026367188,-81.48699188232422
+21_1,0,home,,Home,0.0,1.0,5,home,non_worker,3398.0,3398.0,similarity_nearby,,28.608595,-81.488754,28.60859489440918,-81.48875427246094
+21_1,1,"Buy food (go to the restaurant, food, carry-out)",sg:d9bc7c87db5f4346b918ecd2b84d16f0,Ultimate Entertrainment Orlando,0.18698589764677082,0.735,4,Restaurants and Other Eating Places,non_worker,3398,3398,similarity_nearby,0,28.608595,-81.488754,28.6095662,-81.4903179
+21_1,2,"Buy goods (groceries, clothes, gas)",sg:56ee525e162746e8b9bf8304c137f09a,Dollar General,0.7493969068201078,0.89500004,5,"General Merchandise Stores, including Warehouse Clubs and Supercenters",non_worker,3398,3398,similarity_nearby,0,28.608595,-81.488754,28.613551,-81.483552
+21_1,3,home,,Home,0.0,1.0,5,home,non_worker,3398.0,3398.0,similarity_nearby,,28.608595,-81.488754,28.60859489440918,-81.48875427246094
+21_2,0,home,,Home,0.0,1.0,5,home,non_worker,3398.0,3398.0,taz_specific,,28.602734,-81.49601,28.602733612060547,-81.49600982666016
+21_2,1,Religious or community activities,sg:c87bda74ffd74d1fb09627266fbf876c,Holy Family Fitness Center,0.7040777900758041,0.85,4,Religious Organizations,non_worker,3398.0,3398.0,taz_specific,0,28.602734,-81.49601,28.6090274,-81.4968002
+21_2,2,"Buy goods (groceries, clothes, gas)",sg:d6264d3d0f2f424a9b4451b6f0c47bdd,Spice World Inc,18.981920508666473,0.8525,5,Other Miscellaneous Manufacturing,non_worker,4307.0,4307.0,taz_specific,0,28.602734,-81.49601,28.447191,-81.41595
+21_2,3,home,,Home,0.0,1.0,5,home,non_worker,3398.0,3398.0,taz_specific,,28.602734,-81.49601,28.602733612060547,-81.49600982666016
+22_1,0,home,,Home,0.0,1.0,5,home,non_worker,3398.0,3398.0,similarity_nearby,,28.610126,-81.48691,28.610126495361328,-81.48690795898438
+22_1,1,"Buy food (go to the restaurant, food, carry-out)",sg:d9bc7c87db5f4346b918ecd2b84d16f0,Ultimate Entertrainment Orlando,0.3386521763545691,0.845,4,Restaurants and Other Eating Places,non_worker,3398,3398,similarity_nearby,0,28.610126,-81.48691,28.6095662,-81.4903179
+22_1,2,"Buy goods (groceries, clothes, gas)",sg:56ee525e162746e8b9bf8304c137f09a,Dollar General,0.502313036630734,0.7225,4,"General Merchandise Stores, including Warehouse Clubs and Supercenters",non_worker,3398,3398,similarity_nearby,0,28.610126,-81.48691,28.613551,-81.483552
+22_1,3,home,,Home,0.0,1.0,5,home,non_worker,3398.0,3398.0,similarity_nearby,,28.610126,-81.48691,28.610126495361328,-81.48690795898438
+22_2,0,home,,Home,0.0,1.0,5,home,non_worker,3398.0,3398.0,taz_specific,,28.608269,-81.48878,28.60826873779297,-81.48877716064453
+22_2,1,Religious or community activities,sg:49c07f4a093e4dbcbb883214c464dbfe,Eglise De Dieu Maison De Reconfort Inc,0.5128630374402334,0.85,5,Religious Organizations,non_worker,3398.0,3398.0,taz_specific,0,28.608269,-81.48878,28.60417,-81.486368
+22_2,2,"Buy goods (groceries, clothes, gas)",sg:56ee525e162746e8b9bf8304c137f09a,Dollar General,0.7779197127099071,0.91,5,"General Merchandise Stores, including Warehouse Clubs and Supercenters",non_worker,3398.0,3398,taz_specific,3,28.608269,-81.48878,28.613551,-81.483552
+22_2,3,home,,Home,0.0,1.0,5,home,non_worker,3398.0,3398.0,taz_specific,,28.608269,-81.48878,28.60826873779297,-81.48877716064453
+23_1,0,home,,Home,0.0,1.0,5,home,non_worker,3398.0,3398.0,similarity_nearby,,28.609327,-81.485695,28.60932731628418,-81.4856948852539
+23_1,1,"Buy food (go to the restaurant, food, carry-out)",sg:d9bc7c87db5f4346b918ecd2b84d16f0,Ultimate Entertrainment Orlando,0.4520727110526331,0.845,4,Restaurants and Other Eating Places,non_worker,3398,3398,similarity_nearby,0,28.609327,-81.485695,28.6095662,-81.4903179
+23_1,2,"Buy goods (groceries, clothes, gas)",sg:56ee525e162746e8b9bf8304c137f09a,Dollar General,0.5141303099946956,0.795,4,"General Merchandise Stores, including Warehouse Clubs and Supercenters",non_worker,3398,3398,similarity_nearby,0,28.609327,-81.485695,28.613551,-81.483552
+23_1,3,home,,Home,0.0,1.0,5,home,non_worker,3398.0,3398.0,similarity_nearby,,28.609327,-81.485695,28.60932731628418,-81.4856948852539
+23_2,0,home,,Home,0.0,1.0,5,home,non_worker,3398.0,3398.0,taz_specific,,28.607178,-81.4917,28.607177734375,-81.49169921875
+23_2,1,Religious or community activities,sg:63c2e56ed10f4e59a371751d4f14e5ec,Canine Companions for Independence,0.5490851723316978,0.85,4,Social Advocacy Organizations,non_worker,3398.0,3398.0,taz_specific,0,28.607178,-81.4917,28.611332,-81.49474
+23_2,2,"Buy goods (groceries, clothes, gas)",sg:a7f2de0c67d6402da22d7f886a64ef77,5 Star Pramo,18.8616509892044,0.90000004,5,Printing and Related Support Activities,non_worker,4307.0,4307.0,taz_specific,0,28.607178,-81.4917,28.45145,-81.415158
+23_2,3,home,,Home,0.0,1.0,5,home,non_worker,3398.0,3398.0,taz_specific,,28.607178,-81.4917,28.607177734375,-81.49169921875
+24_1,0,home,,Home,0.0,1.0,5,home,non_worker,3398.0,3398.0,similarity_nearby,,28.610325,-81.48662,28.61032485961914,-81.48661804199219
+24_1,1,"Buy food (go to the restaurant, food, carry-out)",sg:d9bc7c87db5f4346b918ecd2b84d16f0,Ultimate Entertrainment Orlando,0.37089382768252127,0.75250006,5,Restaurants and Other Eating Places,non_worker,3398,3398,similarity_nearby,0,28.610325,-81.48662,28.6095662,-81.4903179
+24_1,2,"Buy goods (groceries, clothes, gas)",sg:56ee525e162746e8b9bf8304c137f09a,Dollar General,0.46718858230787785,0.89500004,5,"General Merchandise Stores, including Warehouse Clubs and Supercenters",non_worker,3398,3398,similarity_nearby,0,28.610325,-81.48662,28.613551,-81.483552
+24_1,3,home,,Home,0.0,1.0,5,home,non_worker,3398.0,3398.0,similarity_nearby,,28.610325,-81.48662,28.61032485961914,-81.48661804199219
+24_2,0,home,,Home,0.0,1.0,5,home,non_worker,3398.0,3398.0,taz_specific,,28.603258,-81.49316,28.60325813293457,-81.49315643310547
+24_2,1,"Buy goods (groceries, clothes, gas)",sg:8fcc2a1db9c13759a1cf616a948e0508,Western Union,0.5572304325809669,0.95000005,5,Activities Related to Credit Intermediation,non_worker,3398.0,3398.0,taz_specific,0,28.603258,-81.49316,28.599451,-81.496868
+24_2,2,Religious or community activities,sg:c87bda74ffd74d1fb09627266fbf876c,Holy Family Fitness Center,0.7335318216698192,0.86,5,Religious Organizations,non_worker,3398.0,3398.0,taz_specific,0,28.603258,-81.49316,28.6090274,-81.4968002
+24_2,3,home,,Home,0.0,1.0,5,home,non_worker,3398.0,3398.0,taz_specific,,28.603258,-81.49316,28.60325813293457,-81.49315643310547
+25_1,0,home,,Home,0.0,1.0,5,home,non_worker,3398.0,3398.0,similarity_nearby,,28.61252,-81.48809,28.612520217895508,-81.48809051513672
+25_1,1,"Buy food (go to the restaurant, food, carry-out)",sg:d9bc7c87db5f4346b918ecd2b84d16f0,Ultimate Entertrainment Orlando,0.3939159761292868,0.95000005,5,Restaurants and Other Eating Places,non_worker,3398,3398,similarity_nearby,0,28.61252,-81.48809,28.6095662,-81.4903179
+25_1,2,"Buy goods (groceries, clothes, gas)",sg:56ee525e162746e8b9bf8304c137f09a,Dollar General,0.45761430563668243,0.9,5,"General Merchandise Stores, including Warehouse Clubs and Supercenters",non_worker,3398,3398,similarity_nearby,0,28.61252,-81.48809,28.613551,-81.483552
+25_1,3,home,,Home,0.0,1.0,5,home,non_worker,3398.0,3398.0,similarity_nearby,,28.61252,-81.48809,28.612520217895508,-81.48809051513672
+25_2,0,home,,Home,0.0,1.0,5,home,non_worker,3398.0,3398.0,taz_specific,,28.609453,-81.49209,28.609453201293945,-81.4920883178711
+25_2,1,"Buy food (go to the restaurant, food, carry-out)",sg:d9bc7c87db5f4346b918ecd2b84d16f0,Ultimate Entertrainment Orlando,0.1732815395510204,0.84000003,5,Restaurants and Other Eating Places,non_worker,3398.0,3398.0,taz_specific,0,28.609453,-81.49209,28.6095662,-81.4903179
+25_2,2,"Buy goods (groceries, clothes, gas)",sg:56ee525e162746e8b9bf8304c137f09a,Dollar General,0.9497297363850014,0.91,5,"General Merchandise Stores, including Warehouse Clubs and Supercenters",non_worker,3398.0,3398,taz_specific,3,28.609453,-81.49209,28.613551,-81.483552
+25_2,3,home,,Home,0.0,1.0,5,home,non_worker,3398.0,3398.0,taz_specific,,28.609453,-81.49209,28.609453201293945,-81.4920883178711
+26_1,0,home,,Home,0.0,1.0,5,home,non_worker,3398.0,3398.0,similarity_nearby,,28.606373,-81.49207,28.606372833251953,-81.49207305908203
+26_1,1,"Buy food (go to the restaurant, food, carry-out)",sg:d9bc7c87db5f4346b918ecd2b84d16f0,Ultimate Entertrainment Orlando,0.3942626425557911,0.845,4,Restaurants and Other Eating Places,non_worker,3398,3398,similarity_nearby,0,28.606373,-81.49207,28.6095662,-81.4903179
+26_1,2,"Buy goods (groceries, clothes, gas)",sg:56ee525e162746e8b9bf8304c137f09a,Dollar General,1.1528183898928,0.795,4,"General Merchandise Stores, including Warehouse Clubs and Supercenters",non_worker,3398,3398,similarity_nearby,0,28.606373,-81.49207,28.613551,-81.483552
+26_1,3,home,,Home,0.0,1.0,5,home,non_worker,3398.0,3398.0,similarity_nearby,,28.606373,-81.49207,28.606372833251953,-81.49207305908203
+26_2,0,home,,Home,0.0,1.0,5,home,non_worker,3398.0,3398.0,taz_specific,,28.611423,-81.49223,28.61142349243164,-81.49223327636719
+26_2,1,Religious or community activities,sg:d498957dc2c44f63958d20916388641e,Freedom Fellowship Church,0.24298324267526658,0.85,5,Religious Organizations,non_worker,3398.0,3398.0,taz_specific,0,28.611423,-81.49223,28.6136033,-81.4920585
+26_2,2,"Buy goods (groceries, clothes, gas)",sg:56ee525e162746e8b9bf8304c137f09a,Dollar General,0.8798291941262519,0.91,5,"General Merchandise Stores, including Warehouse Clubs and Supercenters",non_worker,3398.0,3398,taz_specific,3,28.611423,-81.49223,28.613551,-81.483552
+26_2,3,home,,Home,0.0,1.0,5,home,non_worker,3398.0,3398.0,taz_specific,,28.611423,-81.49223,28.61142349243164,-81.49223327636719
+27_1,0,home,,Home,0.0,1.0,5,home,non_worker,3398.0,3398.0,similarity_nearby,,28.602879,-81.49479,28.60287857055664,-81.49478912353516
+27_1,1,"Buy food (go to the restaurant, food, carry-out)",sg:d9bc7c87db5f4346b918ecd2b84d16f0,Ultimate Entertrainment Orlando,0.8622688344410434,0.7025,4,Restaurants and Other Eating Places,non_worker,3398,3398,similarity_nearby,0,28.602879,-81.49479,28.6095662,-81.4903179
+27_1,2,"Buy goods (groceries, clothes, gas)",sg:56ee525e162746e8b9bf8304c137f09a,Dollar General,1.6160550221471726,0.94000006,5,"General Merchandise Stores, including Warehouse Clubs and Supercenters",non_worker,3398,3398,similarity_nearby,0,28.602879,-81.49479,28.613551,-81.483552
+27_1,3,home,,Home,0.0,1.0,5,home,non_worker,3398.0,3398.0,similarity_nearby,,28.602879,-81.49479,28.60287857055664,-81.49478912353516
+27_2,0,home,,Home,0.0,1.0,5,home,non_worker,3398.0,3398.0,taz_specific,,28.605341,-81.48872,28.6053409576416,-81.48872375488281
+27_2,1,"Buy goods (groceries, clothes, gas)",sg:2c74f701f881335ba87733d595fbf47c,Western Union,1.0393198253453708,0.95000005,5,Activities Related to Credit Intermediation,non_worker,3398.0,3398.0,taz_specific,0,28.605341,-81.48872,28.613509,-81.483548
+27_2,2,Religious or community activities,sg:49c07f4a093e4dbcbb883214c464dbfe,Eglise De Dieu Maison De Reconfort Inc,0.2642762562870993,0.86,5,Religious Organizations,non_worker,3398.0,3398.0,taz_specific,0,28.605341,-81.48872,28.60417,-81.486368
+27_2,3,home,,Home,0.0,1.0,5,home,non_worker,3398.0,3398.0,taz_specific,,28.605341,-81.48872,28.6053409576416,-81.48872375488281
+28_1,0,home,,Home,0.0,1.0,5,home,non_worker,3398.0,3398.0,similarity_nearby,,28.611345,-81.492134,28.611345291137695,-81.49213409423828
+28_1,1,"Buy food (go to the restaurant, food, carry-out)",sg:d9bc7c87db5f4346b918ecd2b84d16f0,Ultimate Entertrainment Orlando,0.26564579715742703,0.86,5,Restaurants and Other Eating Places,non_worker,3398,3398,similarity_nearby,3,28.611345,-81.492134,28.6095662,-81.4903179
+28_1,2,"Buy goods (groceries, clothes, gas)",sg:56ee525e162746e8b9bf8304c137f09a,Dollar General,0.872911414001415,0.9,5,"General Merchandise Stores, including Warehouse Clubs and Supercenters",non_worker,3398,3398,similarity_nearby,0,28.611345,-81.492134,28.613551,-81.483552
+28_1,3,home,,Home,0.0,1.0,5,home,non_worker,3398.0,3398.0,similarity_nearby,,28.611345,-81.492134,28.611345291137695,-81.49213409423828
+28_2,0,home,,Home,0.0,1.0,5,home,non_worker,3398.0,3398.0,taz_specific,,28.611977,-81.487076,28.611976623535156,-81.48707580566406
+28_2,1,"Buy food (go to the restaurant, food, carry-out)",sg:d9bc7c87db5f4346b918ecd2b84d16f0,Ultimate Entertrainment Orlando,0.4147296994076118,0.88,5,Restaurants and Other Eating Places,non_worker,3398.0,3398.0,taz_specific,0,28.611977,-81.487076,28.6095662,-81.4903179
+28_2,2,"Buy goods (groceries, clothes, gas)",sg:2c74f701f881335ba87733d595fbf47c,Western Union,0.3842174645265817,0.90000004,5,Activities Related to Credit Intermediation,non_worker,3398.0,3398.0,taz_specific,0,28.611977,-81.487076,28.613509,-81.483548
+28_2,3,home,,Home,0.0,1.0,5,home,non_worker,3398.0,3398.0,taz_specific,,28.611977,-81.487076,28.611976623535156,-81.48707580566406
+29_1,0,home,,Home,0.0,1.0,5,home,non_worker,3398.0,3398.0,similarity_nearby,,28.610422,-81.484726,28.610422134399414,-81.48472595214844
+29_1,1,"Buy food (go to the restaurant, food, carry-out)",sg:dc38ceb4370433f786cac71d9df1a587,New Beginning Pincho Y Algo Mas,0.3981223792058385,0.94000006,5,Restaurants and Other Eating Places,non_worker,3398,3398,similarity_nearby,0,28.610422,-81.484726,28.613641,-81.48294
+29_1,2,"Buy goods (groceries, clothes, gas)",sg:56ee525e162746e8b9bf8304c137f09a,Dollar General,0.3663011464217325,1.0,5,"General Merchandise Stores, including Warehouse Clubs and Supercenters",non_worker,3398,3398,similarity_nearby,0,28.610422,-81.484726,28.613551,-81.483552
+29_1,3,home,,Home,0.0,1.0,5,home,non_worker,3398.0,3398.0,similarity_nearby,,28.610422,-81.484726,28.610422134399414,-81.48472595214844
+29_2,0,home,,Home,0.0,1.0,5,home,non_worker,3398.0,3398.0,taz_specific,,28.606575,-81.490906,28.60657501220703,-81.49090576171875
+29_2,1,Religious or community activities,sg:49c07f4a093e4dbcbb883214c464dbfe,Eglise De Dieu Maison De Reconfort Inc,0.5174488392782395,0.85,5,Religious Organizations,non_worker,3398.0,3398.0,taz_specific,0,28.606575,-81.490906,28.60417,-81.486368
+29_2,2,"Buy goods (groceries, clothes, gas)",sg:8fcc2a1db9c13759a1cf616a948e0508,Western Union,0.983006669813724,1.0,5,Activities Related to Credit Intermediation,non_worker,3398.0,3398.0,taz_specific,0,28.606575,-81.490906,28.599451,-81.496868
+29_2,3,home,,Home,0.0,1.0,5,home,non_worker,3398.0,3398.0,taz_specific,,28.606575,-81.490906,28.60657501220703,-81.49090576171875
+30_1,0,home,,Home,0.0,1.0,5,home,non_worker,3398.0,3398.0,similarity_nearby,,28.612745,-81.48897,28.61274528503418,-81.48896789550781
+30_1,1,"Buy food (go to the restaurant, food, carry-out)",sg:d9bc7c87db5f4346b918ecd2b84d16f0,Ultimate Entertrainment Orlando,0.3772634980761014,0.85,5,Restaurants and Other Eating Places,non_worker,3398,3398,similarity_nearby,0,28.612745,-81.48897,28.6095662,-81.4903179
+30_1,2,"Buy goods (groceries, clothes, gas)",sg:56ee525e162746e8b9bf8304c137f09a,Dollar General,0.5362103888700676,0.795,4,"General Merchandise Stores, including Warehouse Clubs and Supercenters",non_worker,3398,3398,similarity_nearby,0,28.612745,-81.48897,28.613551,-81.483552
+30_1,3,home,,Home,0.0,1.0,5,home,non_worker,3398.0,3398.0,similarity_nearby,,28.612745,-81.48897,28.61274528503418,-81.48896789550781
+30_2,0,home,,Home,0.0,1.0,5,home,non_worker,3398.0,3398.0,taz_specific,,28.602854,-81.49319,28.602853775024414,-81.4931869506836
+30_2,1,Religious or community activities,sg:49c07f4a093e4dbcbb883214c464dbfe,Eglise De Dieu Maison De Reconfort Inc,0.681592201167534,0.85,4,Religious Organizations,non_worker,3398.0,3398.0,taz_specific,0,28.602854,-81.49319,28.60417,-81.486368
+30_2,2,"Buy goods (groceries, clothes, gas)",sg:5d432e7bea4731abbd844098747b7703,SmartOS LLC dba EntryReady,18.900893917706263,0.8600001,5,Electronics and Appliance Stores,non_worker,4307.0,4307.0,taz_specific,0,28.602854,-81.49319,28.447716,-81.414124
+30_2,3,home,,Home,0.0,1.0,5,home,non_worker,3398.0,3398.0,taz_specific,,28.602854,-81.49319,28.602853775024414,-81.4931869506836
+31_1,0,home,,Home,0.0,1.0,5,home,non_worker,3398.0,3398.0,similarity_nearby,,28.610788,-81.49136,28.610788345336914,-81.49136352539062
+31_1,1,"Buy food (go to the restaurant, food, carry-out)",sg:d9bc7c87db5f4346b918ecd2b84d16f0,Ultimate Entertrainment Orlando,0.16996011959220456,0.845,4,Restaurants and Other Eating Places,non_worker,3398,3398,similarity_nearby,0,28.610788,-81.49136,28.6095662,-81.4903179
+31_1,2,"Buy goods (groceries, clothes, gas)",sg:56ee525e162746e8b9bf8304c137f09a,Dollar General,0.8220819910646692,0.6525,3,"General Merchandise Stores, including Warehouse Clubs and Supercenters",non_worker,3398,3398,similarity_nearby,0,28.610788,-81.49136,28.613551,-81.483552
+31_1,3,home,,Home,0.0,1.0,5,home,non_worker,3398.0,3398.0,similarity_nearby,,28.610788,-81.49136,28.610788345336914,-81.49136352539062
+31_2,0,home,,Home,0.0,1.0,5,home,non_worker,3398.0,3398.0,taz_specific,,28.601618,-81.493,28.60161781311035,-81.49299621582031
+31_2,1,"Buy food (go to the restaurant, food, carry-out)",sg:d9bc7c87db5f4346b918ecd2b84d16f0,Ultimate Entertrainment Orlando,0.9216838176366795,0.94000006,5,Restaurants and Other Eating Places,non_worker,3398.0,3398.0,taz_specific,0,28.601618,-81.493,28.6095662,-81.4903179
+31_2,2,"Buy goods (groceries, clothes, gas)",sg:56ee525e162746e8b9bf8304c137f09a,Dollar General,1.6157582335427227,0.91,5,"General Merchandise Stores, including Warehouse Clubs and Supercenters",non_worker,3398.0,3398,taz_specific,3,28.601618,-81.493,28.613551,-81.483552
+31_2,3,home,,Home,0.0,1.0,5,home,non_worker,3398.0,3398.0,taz_specific,,28.601618,-81.493,28.60161781311035,-81.49299621582031
+32_1,0,home,,Home,0.0,1.0,5,home,student,3398.0,3398.0,similarity_nearby,,28.609964,-81.48723,28.60996437072754,-81.48722839355469
+32_1,1,Attend school,sg:f0b6b038d4ee4d84869a717341e81cdd,Central Christian University,1.1439910818563568,0.845,4,"Colleges, Universities, and Professional Schools",student,3431,3431,similarity_nearby,0,28.609964,-81.48723,28.6113342,-81.4756136
+32_1,2,"Buy goods (groceries, clothes, gas)",sg:7b3cb0eb09004965bbaf922dc96f8c3f,Flowers Delivery,3.1028170620153777,0.94000006,5,Florists,student,3469,3469,similarity_nearby,0,28.609964,-81.48723,28.584331,-81.47467
+32_1,3,home,,Home,0.0,1.0,5,home,student,3398.0,3398.0,similarity_nearby,,28.609964,-81.48723,28.60996437072754,-81.48722839355469
+32_2,0,home,,Home,0.0,1.0,5,home,non_worker,3398.0,3398.0,taz_specific,,28.603786,-81.49179,28.60378646850586,-81.49179077148438
+32_2,1,Religious or community activities,sg:49c07f4a093e4dbcbb883214c464dbfe,Eglise De Dieu Maison De Reconfort Inc,0.5311052303475865,0.85,5,Religious Organizations,non_worker,3398.0,3398.0,taz_specific,0,28.603786,-81.49179,28.60417,-81.486368
+32_2,2,"Buy goods (groceries, clothes, gas)",sg:56ee525e162746e8b9bf8304c137f09a,Dollar General,1.3511944248821417,0.91,5,"General Merchandise Stores, including Warehouse Clubs and Supercenters",non_worker,3398.0,3398,taz_specific,3,28.603786,-81.49179,28.613551,-81.483552
+32_2,3,home,,Home,0.0,1.0,5,home,non_worker,3398.0,3398.0,taz_specific,,28.603786,-81.49179,28.60378646850586,-81.49179077148438
+33_1,0,home,,Home,0.0,1.0,5,home,non_worker,3398.0,3398.0,similarity_nearby,,28.604128,-81.49501,28.604127883911133,-81.49501037597656
+33_1,1,"Buy food (go to the restaurant, food, carry-out)",sg:d9bc7c87db5f4346b918ecd2b84d16f0,Ultimate Entertrainment Orlando,0.758629462399715,0.84000003,5,Restaurants and Other Eating Places,non_worker,3398,3398,similarity_nearby,0,28.604128,-81.49501,28.6095662,-81.4903179
+33_1,2,"Buy goods (groceries, clothes, gas)",sg:56ee525e162746e8b9bf8304c137f09a,Dollar General,1.5326634405337771,1.0,5,"General Merchandise Stores, including Warehouse Clubs and Supercenters",non_worker,3398,3398,similarity_nearby,0,28.604128,-81.49501,28.613551,-81.483552
+33_1,3,home,,Home,0.0,1.0,5,home,non_worker,3398.0,3398.0,similarity_nearby,,28.604128,-81.49501,28.604127883911133,-81.49501037597656
+33_2,0,home,,Home,0.0,1.0,5,home,non_worker,3398.0,3398.0,taz_specific,,28.601557,-81.49543,28.6015567779541,-81.49542999267578
+33_2,1,"Buy food (go to the restaurant, food, carry-out)",sg:d9bc7c87db5f4346b918ecd2b84d16f0,Ultimate Entertrainment Orlando,1.0208991370031886,0.8925,5,Restaurants and Other Eating Places,non_worker,3398.0,3398.0,taz_specific,0,28.601557,-81.49543,28.6095662,-81.4903179
+33_2,2,"Buy goods (groceries, clothes, gas)",sg:56ee525e162746e8b9bf8304c137f09a,Dollar General,1.767275355561851,0.91,5,"General Merchandise Stores, including Warehouse Clubs and Supercenters",non_worker,3398.0,3398,taz_specific,3,28.601557,-81.49543,28.613551,-81.483552
+33_2,3,home,,Home,0.0,1.0,5,home,non_worker,3398.0,3398.0,taz_specific,,28.601557,-81.49543,28.6015567779541,-81.49542999267578
+34_1,0,home,,Home,0.0,1.0,5,home,non_worker,3398.0,3398.0,similarity_nearby,,28.601778,-81.49347,28.601778030395508,-81.49346923828125
+34_1,1,"Buy food (go to the restaurant, food, carry-out)",sg:d9bc7c87db5f4346b918ecd2b84d16f0,Ultimate Entertrainment Orlando,0.9190249579443474,0.83500004,4,Restaurants and Other Eating Places,non_worker,3398,3398,similarity_nearby,0,28.601778,-81.49347,28.6095662,-81.4903179
+34_1,2,"Buy goods (groceries, clothes, gas)",sg:56ee525e162746e8b9bf8304c137f09a,Dollar General,1.6281857390720904,0.91,5,"General Merchandise Stores, including Warehouse Clubs and Supercenters",non_worker,3398,3398,similarity_nearby,3,28.601778,-81.49347,28.613551,-81.483552
+34_1,3,home,,Home,0.0,1.0,5,home,non_worker,3398.0,3398.0,similarity_nearby,,28.601778,-81.49347,28.601778030395508,-81.49346923828125
+34_2,0,home,,Home,0.0,1.0,5,home,non_worker,3398.0,3398.0,taz_specific,,28.60453,-81.49397,28.604530334472656,-81.49397277832031
+34_2,1,"Buy goods (groceries, clothes, gas)",sg:8fcc2a1db9c13759a1cf616a948e0508,Western Union,0.6315728028422222,0.95000005,5,Activities Related to Credit Intermediation,non_worker,3398.0,3398.0,taz_specific,0,28.60453,-81.49397,28.599451,-81.496868
+34_2,2,Religious or community activities,sg:c87bda74ffd74d1fb09627266fbf876c,Holy Family Fitness Center,0.5711702784058557,0.86,5,Religious Organizations,non_worker,3398.0,3398.0,taz_specific,0,28.60453,-81.49397,28.6090274,-81.4968002
+34_2,3,home,,Home,0.0,1.0,5,home,non_worker,3398.0,3398.0,taz_specific,,28.60453,-81.49397,28.604530334472656,-81.49397277832031
+35_1,0,home,,Home,0.0,1.0,5,home,worker,3398.0,3398.0,similarity_nearby,,28.602732,-81.49569,28.602731704711914,-81.49568939208984
+35_1,1,"Buy goods (groceries, clothes, gas)",sg:bf5f183964ad3b269851f42e68d6ab38,Good Follows Food Mart,3.4754931507970173,0.6825,4,Specialty Food Stores,worker,3514,3514,similarity_nearby,3,28.602732,-81.49569,28.57678,-81.475851
+35_1,2,"Work-related activity, or volunteer",sg:0da4a89abe0c3c48a6af802783f527f2,Studio cheve,3.436776887030759,0.855,4,Management of Companies and Enterprises,worker,3514,3514,similarity_nearby,0,28.602732,-81.49569,28.577329,-81.475638
+35_1,3,home,,Home,0.0,1.0,5,home,worker,3398.0,3398.0,similarity_nearby,,28.602732,-81.49569,28.602731704711914,-81.49568939208984
+35_2,0,home,,Home,0.0,1.0,5,home,non_worker,3398.0,3398.0,taz_specific,,28.608519,-81.48913,28.608518600463867,-81.48912811279297
+35_2,1,"Buy food (go to the restaurant, food, carry-out)",sg:d9bc7c87db5f4346b918ecd2b84d16f0,Ultimate Entertrainment Orlando,0.16449684261179112,0.84000003,5,Restaurants and Other Eating Places,non_worker,3398.0,3398.0,taz_specific,0,28.608519,-81.48913,28.6095662,-81.4903179
+35_2,2,"Buy goods (groceries, clothes, gas)",sg:2c74f701f881335ba87733d595fbf47c,Western Union,0.777582934393428,1.0,5,Activities Related to Credit Intermediation,non_worker,3398.0,3398.0,taz_specific,0,28.608519,-81.48913,28.613509,-81.483548
+35_2,3,home,,Home,0.0,1.0,5,home,non_worker,3398.0,3398.0,taz_specific,,28.608519,-81.48913,28.608518600463867,-81.48912811279297
+36_1,0,home,,Home,0.0,1.0,5,home,non_worker,3398.0,3398.0,similarity_nearby,,28.601694,-81.49142,28.601694107055664,-81.49141693115234
+36_1,1,"Buy food (go to the restaurant, food, carry-out)",sg:d9bc7c87db5f4346b918ecd2b84d16f0,Ultimate Entertrainment Orlando,0.8818875080326277,0.84000003,5,Restaurants and Other Eating Places,non_worker,3398,3398,similarity_nearby,0,28.601694,-81.49142,28.6095662,-81.4903179
+36_1,2,"Buy goods (groceries, clothes, gas)",sg:56ee525e162746e8b9bf8304c137f09a,Dollar General,1.5256893168703674,0.84000003,5,"General Merchandise Stores, including Warehouse Clubs and Supercenters",non_worker,3398,3398,similarity_nearby,0,28.601694,-81.49142,28.613551,-81.483552
+36_1,3,home,,Home,0.0,1.0,5,home,non_worker,3398.0,3398.0,similarity_nearby,,28.601694,-81.49142,28.601694107055664,-81.49141693115234
+36_2,0,home,,Home,0.0,1.0,5,home,non_worker,3398.0,3398.0,taz_specific,,28.611845,-81.487175,28.611845016479492,-81.48717498779297
+36_2,1,Religious or community activities,sg:f3b5481b6f734e26be99e8d3712c450b,Orlando Free Presbyterian Church,0.42361031722526715,0.85,5,Religious Organizations,non_worker,3398.0,3398.0,taz_specific,0,28.611845,-81.487175,28.613455,-81.491108
+36_2,2,"Buy goods (groceries, clothes, gas)",sg:139727c546c43cb291340e7bbc3b95ce,Zesty Brands,18.548250615311584,0.91,5,Bakeries and Tortilla Manufacturing,non_worker,4307.0,4307,taz_specific,3,28.611845,-81.487175,28.460357,-81.407687
+36_2,3,home,,Home,0.0,1.0,5,home,non_worker,3398.0,3398.0,taz_specific,,28.611845,-81.487175,28.611845016479492,-81.48717498779297
+37_1,0,home,,Home,0.0,1.0,5,home,non_worker,3398.0,3398.0,similarity_nearby,,28.606506,-81.49068,28.60650634765625,-81.49067687988281
+37_1,1,"Buy food (go to the restaurant, food, carry-out)",sg:d9bc7c87db5f4346b918ecd2b84d16f0,Ultimate Entertrainment Orlando,0.34203997715742823,0.86,5,Restaurants and Other Eating Places,non_worker,3398,3398,similarity_nearby,3,28.606506,-81.49068,28.6095662,-81.4903179
+37_1,2,"Buy goods (groceries, clothes, gas)",sg:56ee525e162746e8b9bf8304c137f09a,Dollar General,1.047543721798088,0.98,5,"General Merchandise Stores, including Warehouse Clubs and Supercenters",non_worker,3398,3398,similarity_nearby,0,28.606506,-81.49068,28.613551,-81.483552
+37_1,3,home,,Home,0.0,1.0,5,home,non_worker,3398.0,3398.0,similarity_nearby,,28.606506,-81.49068,28.60650634765625,-81.49067687988281
+37_2,0,home,,Home,0.0,1.0,5,home,non_worker,3398.0,3398.0,taz_specific,,28.607864,-81.48683,28.607864379882812,-81.48683166503906
+37_2,1,"Buy food (go to the restaurant, food, carry-out)",sg:d9bc7c87db5f4346b918ecd2b84d16f0,Ultimate Entertrainment Orlando,0.38939615885921514,0.88,5,Restaurants and Other Eating Places,non_worker,3398.0,3398.0,taz_specific,0,28.607864,-81.48683,28.6095662,-81.4903179
+37_2,2,"Buy goods (groceries, clothes, gas)",sg:2c74f701f881335ba87733d595fbf47c,Western Union,0.7047666189096817,1.0,5,Activities Related to Credit Intermediation,non_worker,3398.0,3398.0,taz_specific,0,28.607864,-81.48683,28.613509,-81.483548
+37_2,3,home,,Home,0.0,1.0,5,home,non_worker,3398.0,3398.0,taz_specific,,28.607864,-81.48683,28.607864379882812,-81.48683166503906
+38_1,0,home,,Home,0.0,1.0,5,home,non_worker,3398.0,3398.0,similarity_nearby,,28.606035,-81.49122,28.606035232543945,-81.49121856689453
+38_1,1,"Buy food (go to the restaurant, food, carry-out)",sg:d9bc7c87db5f4346b918ecd2b84d16f0,Ultimate Entertrainment Orlando,0.4023498319275274,0.9100001,5,Restaurants and Other Eating Places,non_worker,3398,3398,similarity_nearby,0,28.606035,-81.49122,28.6095662,-81.4903179
+38_1,2,"Buy goods (groceries, clothes, gas)",sg:56ee525e162746e8b9bf8304c137f09a,Dollar General,1.1218362796157904,0.96000004,5,"General Merchandise Stores, including Warehouse Clubs and Supercenters",non_worker,3398,3398,similarity_nearby,0,28.606035,-81.49122,28.613551,-81.483552
+38_1,3,home,,Home,0.0,1.0,5,home,non_worker,3398.0,3398.0,similarity_nearby,,28.606035,-81.49122,28.606035232543945,-81.49121856689453
+38_2,0,home,,Home,0.0,1.0,5,home,non_worker,3398.0,3398.0,taz_specific,,28.601433,-81.496056,28.60143280029297,-81.49605560302734
+38_2,1,Religious or community activities,sg:d34f67d9937a3fa7b193f627b0cf7f88,Westwood Church,0.5956423218099849,0.85,4,Religious Organizations,non_worker,3398.0,3398.0,taz_specific,0,28.601433,-81.496056,28.596409,-81.498173
+38_2,2,"Buy goods (groceries, clothes, gas)",sg:d6264d3d0f2f424a9b4451b6f0c47bdd,Spice World Inc,18.852097485280396,0.90000004,5,Other Miscellaneous Manufacturing,non_worker,4307.0,4307.0,taz_specific,0,28.601433,-81.496056,28.447191,-81.41595
+38_2,3,home,,Home,0.0,1.0,5,home,non_worker,3398.0,3398.0,taz_specific,,28.601433,-81.496056,28.60143280029297,-81.49605560302734
+39_1,0,home,,Home,0.0,1.0,5,home,non_worker,3398.0,3398.0,similarity_nearby,,28.60153,-81.49351,28.601530075073242,-81.4935073852539
+39_1,1,"Buy food (go to the restaurant, food, carry-out)",sg:d9bc7c87db5f4346b918ecd2b84d16f0,Ultimate Entertrainment Orlando,0.9462696953460716,0.995,5,Restaurants and Other Eating Places,non_worker,3398,3398,similarity_nearby,0,28.60153,-81.49351,28.6095662,-81.4903179
+39_1,2,"Buy goods (groceries, clothes, gas)",sg:56ee525e162746e8b9bf8304c137f09a,Dollar General,1.652622934889274,1.0,5,"General Merchandise Stores, including Warehouse Clubs and Supercenters",non_worker,3398,3398,similarity_nearby,0,28.60153,-81.49351,28.613551,-81.483552
+39_1,3,home,,Home,0.0,1.0,5,home,non_worker,3398.0,3398.0,similarity_nearby,,28.60153,-81.49351,28.601530075073242,-81.4935073852539
+39_2,0,home,,Home,0.0,1.0,5,home,non_worker,3398.0,3398.0,taz_specific,,28.611387,-81.48794,28.611387252807617,-81.4879379272461
+39_2,1,Religious or community activities,sg:f3b5481b6f734e26be99e8d3712c450b,Orlando Free Presbyterian Church,0.38551681233293017,0.85,4,Religious Organizations,non_worker,3398.0,3398.0,taz_specific,0,28.611387,-81.48794,28.613455,-81.491108
+39_2,2,"Buy goods (groceries, clothes, gas)",sg:92adc814fc0e3d658b783bb9ef3d602c,Redi Carpet,18.879527600443915,0.8600001,5,Home Furnishings Stores,non_worker,4307.0,4307.0,taz_specific,0,28.611387,-81.48794,28.45588,-81.410358
+39_2,3,home,,Home,0.0,1.0,5,home,non_worker,3398.0,3398.0,taz_specific,,28.611387,-81.48794,28.611387252807617,-81.4879379272461
+40_1,0,home,,Home,0.0,1.0,5,home,non_worker,3398.0,3398.0,similarity_nearby,,28.612293,-81.48623,28.612293243408203,-81.4862289428711
+40_1,1,"Buy food (go to the restaurant, food, carry-out)",sg:dc38ceb4370433f786cac71d9df1a587,New Beginning Pincho Y Algo Mas,0.3543060320124031,0.745,4,Restaurants and Other Eating Places,non_worker,3398,3398,similarity_nearby,0,28.612293,-81.48623,28.613641,-81.48294
+40_1,2,"Buy goods (groceries, clothes, gas)",sg:56ee525e162746e8b9bf8304c137f09a,Dollar General,0.29638301037248405,0.86,5,"General Merchandise Stores, including Warehouse Clubs and Supercenters",non_worker,3398,3398,similarity_nearby,0,28.612293,-81.48623,28.613551,-81.483552
+40_1,3,home,,Home,0.0,1.0,5,home,non_worker,3398.0,3398.0,similarity_nearby,,28.612293,-81.48623,28.612293243408203,-81.4862289428711
+40_2,0,home,,Home,0.0,1.0,5,home,non_worker,3398.0,3398.0,taz_specific,,28.610977,-81.48848,28.610977172851562,-81.48847961425781
+40_2,1,Religious or community activities,sg:f3b5481b6f734e26be99e8d3712c450b,Orlando Free Presbyterian Church,0.3764858331116758,0.85,4,Religious Organizations,non_worker,3398.0,3398.0,taz_specific,0,28.610977,-81.48848,28.613455,-81.491108
+40_2,2,"Buy goods (groceries, clothes, gas)",sg:92adc814fc0e3d658b783bb9ef3d602c,Redi Carpet,18.859130190795646,0.90000004,5,Home Furnishings Stores,non_worker,4307.0,4307.0,taz_specific,0,28.610977,-81.48848,28.45588,-81.410358
+40_2,3,home,,Home,0.0,1.0,5,home,non_worker,3398.0,3398.0,taz_specific,,28.610977,-81.48848,28.610977172851562,-81.48847961425781
+41_1,0,home,,Home,0.0,1.0,5,home,non_worker,3398.0,3398.0,similarity_nearby,,28.610674,-81.49265,28.610673904418945,-81.4926528930664
+41_1,1,"Buy food (go to the restaurant, food, carry-out)",sg:d9bc7c87db5f4346b918ecd2b84d16f0,Ultimate Entertrainment Orlando,0.2590876314972373,0.86,5,Restaurants and Other Eating Places,non_worker,3398,3398,similarity_nearby,3,28.610674,-81.49265,28.6095662,-81.4903179
+41_1,2,"Buy goods (groceries, clothes, gas)",sg:56ee525e162746e8b9bf8304c137f09a,Dollar General,0.9442401788741468,0.87,5,"General Merchandise Stores, including Warehouse Clubs and Supercenters",non_worker,3398,3398,similarity_nearby,3,28.610674,-81.49265,28.613551,-81.483552
+41_1,3,home,,Home,0.0,1.0,5,home,non_worker,3398.0,3398.0,similarity_nearby,,28.610674,-81.49265,28.610673904418945,-81.4926528930664
+41_2,0,home,,Home,0.0,1.0,5,home,non_worker,3398.0,3398.0,taz_specific,,28.608667,-81.49172,28.608667373657227,-81.4917221069336
+41_2,1,Religious or community activities,sg:63c2e56ed10f4e59a371751d4f14e5ec,Canine Companions for Independence,0.41782651426394735,0.85,4,Social Advocacy Organizations,non_worker,3398.0,3398.0,taz_specific,0,28.608667,-81.49172,28.611332,-81.49474
+41_2,2,"Buy goods (groceries, clothes, gas)",sg:c61d4adf917038d789dc3ebf14b71c0e,Pictures Mirrors,18.808512795979485,0.90000004,5,Other Miscellaneous Store Retailers,non_worker,4307.0,4307.0,taz_specific,0,28.608667,-81.49172,28.454341,-81.412906
+41_2,3,home,,Home,0.0,1.0,5,home,non_worker,3398.0,3398.0,taz_specific,,28.608667,-81.49172,28.608667373657227,-81.4917221069336
+42_1,0,home,,Home,0.0,1.0,5,home,non_worker,3398.0,3398.0,similarity_nearby,,28.610622,-81.487885,28.61062240600586,-81.48788452148438
+42_1,1,"Buy food (go to the restaurant, food, carry-out)",sg:d9bc7c87db5f4346b918ecd2b84d16f0,Ultimate Entertrainment Orlando,0.26498888369891865,0.845,4,Restaurants and Other Eating Places,non_worker,3398,3398,similarity_nearby,0,28.610622,-81.487885,28.6095662,-81.4903179
+42_1,2,"Buy goods (groceries, clothes, gas)",sg:56ee525e162746e8b9bf8304c137f09a,Dollar General,0.5337685177970389,0.755,4,"General Merchandise Stores, including Warehouse Clubs and Supercenters",non_worker,3398,3398,similarity_nearby,0,28.610622,-81.487885,28.613551,-81.483552
+42_1,3,home,,Home,0.0,1.0,5,home,non_worker,3398.0,3398.0,similarity_nearby,,28.610622,-81.487885,28.61062240600586,-81.48788452148438
+42_2,0,home,,Home,0.0,1.0,5,home,non_worker,3398.0,3398.0,taz_specific,,28.609346,-81.489204,28.609346389770508,-81.48920440673828
+42_2,1,"Buy food (go to the restaurant, food, carry-out)",sg:d9bc7c87db5f4346b918ecd2b84d16f0,Ultimate Entertrainment Orlando,0.11141161694170686,0.84000003,5,Restaurants and Other Eating Places,non_worker,3398.0,3398.0,taz_specific,0,28.609346,-81.489204,28.6095662,-81.4903179
+42_2,2,"Buy goods (groceries, clothes, gas)",sg:56ee525e162746e8b9bf8304c137f09a,Dollar General,0.7232111490669769,0.91,5,"General Merchandise Stores, including Warehouse Clubs and Supercenters",non_worker,3398.0,3398,taz_specific,3,28.609346,-81.489204,28.613551,-81.483552
+42_2,3,home,,Home,0.0,1.0,5,home,non_worker,3398.0,3398.0,taz_specific,,28.609346,-81.489204,28.609346389770508,-81.48920440673828
+43_1,0,home,,Home,0.0,1.0,5,home,non_worker,3398.0,3398.0,similarity_nearby,,28.607828,-81.49055,28.60782814025879,-81.49054718017578
+43_1,1,"Buy food (go to the restaurant, food, carry-out)",sg:d9bc7c87db5f4346b918ecd2b84d16f0,Ultimate Entertrainment Orlando,0.1945551640278166,0.735,4,Restaurants and Other Eating Places,non_worker,3398,3398,similarity_nearby,0,28.607828,-81.49055,28.6095662,-81.4903179
+43_1,2,"Buy goods (groceries, clothes, gas)",sg:56ee525e162746e8b9bf8304c137f09a,Dollar General,0.933397155333773,0.91,5,"General Merchandise Stores, including Warehouse Clubs and Supercenters",non_worker,3398,3398,similarity_nearby,3,28.607828,-81.49055,28.613551,-81.483552
+43_1,3,home,,Home,0.0,1.0,5,home,non_worker,3398.0,3398.0,similarity_nearby,,28.607828,-81.49055,28.60782814025879,-81.49054718017578
+43_2,0,home,,Home,0.0,1.0,5,home,non_worker,3398.0,3398.0,taz_specific,,28.608881,-81.48808,28.6088809967041,-81.48808288574219
+43_2,1,Religious or community activities,sg:49c07f4a093e4dbcbb883214c464dbfe,Eglise De Dieu Maison De Reconfort Inc,0.5499391450823584,0.85,5,Religious Organizations,non_worker,3398.0,3398.0,taz_specific,0,28.608881,-81.48808,28.60417,-81.486368
+43_2,2,"Buy goods (groceries, clothes, gas)",sg:139727c546c43cb291340e7bbc3b95ce,Zesty Brands,18.287418492356572,0.6175,3,Bakeries and Tortilla Manufacturing,non_worker,4307.0,4307,taz_specific,1,28.608881,-81.48808,28.460357,-81.407687
+43_2,3,home,,Home,0.0,1.0,5,home,non_worker,3398.0,3398.0,taz_specific,,28.608881,-81.48808,28.6088809967041,-81.48808288574219
+44_1,0,home,,Home,0.0,1.0,5,home,non_worker,3398.0,3398.0,taz_specific,,28.604021,-81.48891,28.604021072387695,-81.48890686035156
+44_1,1,"Buy goods (groceries, clothes, gas)",sg:8fcc2a1db9c13759a1cf616a948e0508,Western Union,0.9285973632510797,0.95000005,5,Activities Related to Credit Intermediation,non_worker,3398.0,3398.0,taz_specific,0,28.604021,-81.48891,28.599451,-81.496868
+44_1,2,Religious or community activities,sg:49c07f4a093e4dbcbb883214c464dbfe,Eglise De Dieu Maison De Reconfort Inc,0.24840490073607455,0.86,5,Religious Organizations,non_worker,3398.0,3398.0,taz_specific,0,28.604021,-81.48891,28.60417,-81.486368
+44_1,3,home,,Home,0.0,1.0,5,home,non_worker,3398.0,3398.0,taz_specific,,28.604021,-81.48891,28.604021072387695,-81.48890686035156
+44_2,0,home,,Home,0.0,1.0,5,home,non_worker,3398.0,3398.0,taz_specific,,28.610598,-81.49638,28.610597610473633,-81.49638366699219
+44_2,1,Religious or community activities,sg:66efd9ff58cd39cbafc2114a50b55645,Orlando Christ Community Church,0.1323180403645904,0.85,4,Religious Organizations,non_worker,3398.0,3398.0,taz_specific,0,28.610598,-81.49638,28.610802,-81.497719
+44_2,2,"Buy goods (groceries, clothes, gas)",sg:270e6f7b606a33e8a44771fdb9b137a6,Crown Linen,18.880717659543556,0.90000004,5,Building Material and Supplies Dealers,non_worker,4307.0,4307.0,taz_specific,0,28.610598,-81.49638,28.45526,-81.418335
+44_2,3,home,,Home,0.0,1.0,5,home,non_worker,3398.0,3398.0,taz_specific,,28.610598,-81.49638,28.610597610473633,-81.49638366699219
+45_1,0,home,,Home,0.0,1.0,5,home,non_worker,3398.0,3398.0,taz_specific,,28.602848,-81.4912,28.602848052978516,-81.49120330810547
+45_1,1,Religious or community activities,sg:49c07f4a093e4dbcbb883214c464dbfe,Eglise De Dieu Maison De Reconfort Inc,0.4943995429886886,0.85,5,Religious Organizations,non_worker,3398.0,3398.0,taz_specific,0,28.602848,-81.4912,28.60417,-81.486368
+45_1,2,"Buy goods (groceries, clothes, gas)",sg:139727c546c43cb291340e7bbc3b95ce,Zesty Brands,17.821523991960678,0.89500004,5,Bakeries and Tortilla Manufacturing,non_worker,4307.0,4307,taz_specific,1,28.602848,-81.4912,28.460357,-81.407687
+45_1,3,home,,Home,0.0,1.0,5,home,non_worker,3398.0,3398.0,taz_specific,,28.602848,-81.4912,28.602848052978516,-81.49120330810547
+45_2,0,home,,Home,0.0,1.0,5,home,non_worker,3398.0,3398.0,taz_specific,,28.604223,-81.49088,28.604223251342773,-81.49088287353516
+45_2,1,"Buy goods (groceries, clothes, gas)",sg:8fcc2a1db9c13759a1cf616a948e0508,Western Union,0.7893019097339817,0.95000005,5,Activities Related to Credit Intermediation,non_worker,3398.0,3398.0,taz_specific,0,28.604223,-81.49088,28.599451,-81.496868
+45_2,2,Religious or community activities,sg:49c07f4a093e4dbcbb883214c464dbfe,Eglise De Dieu Maison De Reconfort Inc,0.4407968677909042,0.86,5,Religious Organizations,non_worker,3398.0,3398.0,taz_specific,0,28.604223,-81.49088,28.60417,-81.486368
+45_2,3,home,,Home,0.0,1.0,5,home,non_worker,3398.0,3398.0,taz_specific,,28.604223,-81.49088,28.604223251342773,-81.49088287353516
+46_1,0,home,,Home,0.0,1.0,5,home,non_worker,3398.0,3398.0,taz_specific,,28.604666,-81.49201,28.604665756225586,-81.49201202392578
+46_1,1,Religious or community activities,sg:49c07f4a093e4dbcbb883214c464dbfe,Eglise De Dieu Maison De Reconfort Inc,0.5537381385171614,0.85,5,Religious Organizations,non_worker,3398.0,3398.0,taz_specific,0,28.604666,-81.49201,28.60417,-81.486368
+46_1,2,"Buy goods (groceries, clothes, gas)",sg:8fcc2a1db9c13759a1cf616a948e0508,Western Union,0.7489793317024398,1.0,5,Activities Related to Credit Intermediation,non_worker,3398.0,3398.0,taz_specific,0,28.604666,-81.49201,28.599451,-81.496868
+46_1,3,home,,Home,0.0,1.0,5,home,non_worker,3398.0,3398.0,taz_specific,,28.604666,-81.49201,28.604665756225586,-81.49201202392578
+46_2,0,home,,Home,0.0,1.0,5,home,non_worker,3398.0,3398.0,taz_specific,,28.603676,-81.49263,28.603675842285156,-81.49263000488281
+46_2,1,"Buy food (go to the restaurant, food, carry-out)",sg:d9bc7c87db5f4346b918ecd2b84d16f0,Ultimate Entertrainment Orlando,0.6927778487297338,0.94000006,5,Restaurants and Other Eating Places,non_worker,3398.0,3398.0,taz_specific,0,28.603676,-81.49263,28.6095662,-81.4903179
+46_2,2,"Buy goods (groceries, clothes, gas)",sg:56ee525e162746e8b9bf8304c137f09a,Dollar General,1.4110568098259422,0.91,5,"General Merchandise Stores, including Warehouse Clubs and Supercenters",non_worker,3398.0,3398,taz_specific,3,28.603676,-81.49263,28.613551,-81.483552
+46_2,3,home,,Home,0.0,1.0,5,home,non_worker,3398.0,3398.0,taz_specific,,28.603676,-81.49263,28.603675842285156,-81.49263000488281
+47_1,0,home,,Home,0.0,1.0,5,home,non_worker,3398.0,3398.0,taz_specific,,28.611925,-81.48713,28.61192512512207,-81.48712921142578
+47_1,1,"Buy food (go to the restaurant, food, carry-out)",sg:d9bc7c87db5f4346b918ecd2b84d16f0,Ultimate Entertrainment Orlando,0.40705187826353945,0.88,5,Restaurants and Other Eating Places,non_worker,3398.0,3398.0,taz_specific,0,28.611925,-81.48713,28.6095662,-81.4903179
+47_1,2,"Buy goods (groceries, clothes, gas)",sg:2c74f701f881335ba87733d595fbf47c,Western Union,0.39143975714298157,0.90000004,5,Activities Related to Credit Intermediation,non_worker,3398.0,3398.0,taz_specific,0,28.611925,-81.48713,28.613509,-81.483548
+47_1,3,home,,Home,0.0,1.0,5,home,non_worker,3398.0,3398.0,taz_specific,,28.611925,-81.48713,28.61192512512207,-81.48712921142578
+47_2,0,home,,Home,0.0,1.0,5,home,non_worker,3398.0,3398.0,taz_specific,,28.602724,-81.49563,28.602724075317383,-81.4956283569336
+47_2,1,Religious or community activities,sg:c87bda74ffd74d1fb09627266fbf876c,Holy Family Fitness Center,0.7101720860610076,0.85,5,Religious Organizations,non_worker,3398.0,3398.0,taz_specific,0,28.602724,-81.49563,28.6090274,-81.4968002
+47_2,2,"Buy goods (groceries, clothes, gas)",sg:8fcc2a1db9c13759a1cf616a948e0508,Western Union,0.3835432101971673,1.0,5,Activities Related to Credit Intermediation,non_worker,3398.0,3398.0,taz_specific,0,28.602724,-81.49563,28.599451,-81.496868
+47_2,3,home,,Home,0.0,1.0,5,home,non_worker,3398.0,3398.0,taz_specific,,28.602724,-81.49563,28.602724075317383,-81.4956283569336
+48_1,0,home,,Home,0.0,1.0,5,home,non_worker,3398.0,3398.0,taz_specific,,28.605122,-81.4931,28.605121612548828,-81.49310302734375
+48_1,1,Religious or community activities,sg:c87bda74ffd74d1fb09627266fbf876c,Holy Family Fitness Center,0.5646975812056014,0.85,4,Religious Organizations,non_worker,3398.0,3398.0,taz_specific,0,28.605122,-81.4931,28.6090274,-81.4968002
+48_1,2,"Buy goods (groceries, clothes, gas)",sg:092b3994999133ddb432647c14fb59b1,Alpha One Total Solution,18.903565089572812,0.8525,5,"Automotive Parts, Accessories, and Tire Stores",non_worker,4307.0,4307.0,taz_specific,0,28.605122,-81.4931,28.449485,-81.415251
+48_1,3,home,,Home,0.0,1.0,5,home,non_worker,3398.0,3398.0,taz_specific,,28.605122,-81.4931,28.605121612548828,-81.49310302734375
+48_2,0,home,,Home,0.0,1.0,5,home,non_worker,3398.0,3398.0,taz_specific,,28.602924,-81.4946,28.602924346923828,-81.49459838867188
+48_2,1,"Buy goods (groceries, clothes, gas)",sg:8fcc2a1db9c13759a1cf616a948e0508,Western Union,0.4452634622081434,0.95000005,5,Activities Related to Credit Intermediation,non_worker,3398.0,3398.0,taz_specific,0,28.602924,-81.4946,28.599451,-81.496868
+48_2,2,Religious or community activities,sg:c87bda74ffd74d1fb09627266fbf876c,Holy Family Fitness Center,0.7118552240935356,0.86,5,Religious Organizations,non_worker,3398.0,3398.0,taz_specific,0,28.602924,-81.4946,28.6090274,-81.4968002
+48_2,3,home,,Home,0.0,1.0,5,home,non_worker,3398.0,3398.0,taz_specific,,28.602924,-81.4946,28.602924346923828,-81.49459838867188
+49_1,0,home,,Home,0.0,1.0,5,home,non_worker,3398.0,3398.0,taz_specific,,28.604233,-81.49592,28.604232788085938,-81.49591827392578
+49_1,1,Religious or community activities,sg:c87bda74ffd74d1fb09627266fbf876c,Holy Family Fitness Center,0.5400433566657954,0.85,5,Religious Organizations,non_worker,3398.0,3398.0,taz_specific,0,28.604233,-81.49592,28.6090274,-81.4968002
+49_1,2,"Buy goods (groceries, clothes, gas)",sg:8fcc2a1db9c13759a1cf616a948e0508,Western Union,0.539733892889781,1.0,5,Activities Related to Credit Intermediation,non_worker,3398.0,3398.0,taz_specific,0,28.604233,-81.49592,28.599451,-81.496868
+49_1,3,home,,Home,0.0,1.0,5,home,non_worker,3398.0,3398.0,taz_specific,,28.604233,-81.49592,28.604232788085938,-81.49591827392578
+49_2,0,home,,Home,0.0,1.0,5,home,non_worker,3398.0,3398.0,taz_specific,,28.61193,-81.49176,28.61193084716797,-81.49176025390625
+49_2,1,"Buy food (go to the restaurant, food, carry-out)",sg:d9bc7c87db5f4346b918ecd2b84d16f0,Ultimate Entertrainment Orlando,0.2982616332010576,0.84000003,5,Restaurants and Other Eating Places,non_worker,3398.0,3398.0,taz_specific,0,28.61193,-81.49176,28.6095662,-81.4903179
+49_2,2,"Buy goods (groceries, clothes, gas)",sg:dca7843b63583f85824257bc05e4ea50,MoneyPass ATM,0.6254553740000062,1.0,5,Depository Credit Intermediation,non_worker,3398.0,3398.0,taz_specific,0,28.61193,-81.49176,28.612976,-81.498056
+49_2,3,home,,Home,0.0,1.0,5,home,non_worker,3398.0,3398.0,taz_specific,,28.61193,-81.49176,28.61193084716797,-81.49176025390625
+50_1,0,home,,Home,0.0,1.0,5,home,non_worker,3398.0,3398.0,taz_specific,,28.608778,-81.48778,28.60877799987793,-81.48777770996094
+50_1,1,"Buy goods (groceries, clothes, gas)",sg:2c74f701f881335ba87733d595fbf47c,Western Union,0.6687462995440349,0.95000005,5,Activities Related to Credit Intermediation,non_worker,3398.0,3398.0,taz_specific,0,28.608778,-81.48778,28.613509,-81.483548
+50_1,2,Religious or community activities,sg:49c07f4a093e4dbcbb883214c464dbfe,Eglise De Dieu Maison De Reconfort Inc,0.5305452274081863,0.86,5,Religious Organizations,non_worker,3398.0,3398.0,taz_specific,0,28.608778,-81.48778,28.60417,-81.486368
+50_1,3,home,,Home,0.0,1.0,5,home,non_worker,3398.0,3398.0,taz_specific,,28.608778,-81.48778,28.60877799987793,-81.48777770996094
+50_2,0,home,,Home,0.0,1.0,5,home,non_worker,3398.0,3398.0,taz_specific,,28.610916,-81.48666,28.610916137695312,-81.48665618896484
+50_2,1,"Buy goods (groceries, clothes, gas)",sg:2c74f701f881335ba87733d595fbf47c,Western Union,0.41854664159146876,0.85,5,Activities Related to Credit Intermediation,non_worker,3398.0,3398.0,taz_specific,0,28.610916,-81.48666,28.613509,-81.483548
+50_2,2,Religious or community activities,sg:f3b5481b6f734e26be99e8d3712c450b,Orlando Free Presbyterian Church,0.5182154161986745,0.86,5,Religious Organizations,non_worker,3398.0,3398.0,taz_specific,0,28.610916,-81.48666,28.613455,-81.491108
+50_2,3,home,,Home,0.0,1.0,5,home,non_worker,3398.0,3398.0,taz_specific,,28.610916,-81.48666,28.610916137695312,-81.48665618896484
+51_1,0,home,,Home,0.0,1.0,5,home,non_worker,3398.0,3398.0,taz_specific,,28.6071,-81.48987,28.607099533081055,-81.4898681640625
+51_1,1,Religious or community activities,sg:49c07f4a093e4dbcbb883214c464dbfe,Eglise De Dieu Maison De Reconfort Inc,0.4720876107804212,0.85,5,Religious Organizations,non_worker,3398.0,3398.0,taz_specific,0,28.6071,-81.48987,28.60417,-81.486368
+51_1,2,"Buy goods (groceries, clothes, gas)",sg:139727c546c43cb291340e7bbc3b95ce,Zesty Brands,18.18507205543528,0.89500004,5,Bakeries and Tortilla Manufacturing,non_worker,4307.0,4307,taz_specific,1,28.6071,-81.48987,28.460357,-81.407687
+51_1,3,home,,Home,0.0,1.0,5,home,non_worker,3398.0,3398.0,taz_specific,,28.6071,-81.48987,28.607099533081055,-81.4898681640625
+51_2,0,home,,Home,0.0,1.0,5,home,non_worker,3398.0,3398.0,taz_specific,,28.609295,-81.484634,28.609294891357422,-81.48463439941406
+51_2,1,"Buy goods (groceries, clothes, gas)",sg:2c74f701f881335ba87733d595fbf47c,Western Union,0.48043833448140766,0.85,5,Activities Related to Credit Intermediation,non_worker,3398.0,3398.0,taz_specific,0,28.609295,-81.484634,28.613509,-81.483548
+51_2,2,Religious or community activities,sg:fbc82f1a82cf481581e3475462399e03,Theolonias Ministries Electrifying & Edifying Signature Series,0.33516916624941023,0.86,5,Religious Organizations,non_worker,3398.0,3398.0,taz_specific,0,28.609295,-81.484634,28.606955,-81.48247
+51_2,3,home,,Home,0.0,1.0,5,home,non_worker,3398.0,3398.0,taz_specific,,28.609295,-81.484634,28.609294891357422,-81.48463439941406
+52_1,0,home,,Home,0.0,1.0,5,home,non_worker,3398.0,3398.0,taz_specific,,28.603918,-81.49367,28.603918075561523,-81.49366760253906
+52_1,1,"Buy goods (groceries, clothes, gas)",sg:8fcc2a1db9c13759a1cf616a948e0508,Western Union,0.5868102798049953,0.95000005,5,Activities Related to Credit Intermediation,non_worker,3398.0,3398.0,taz_specific,0,28.603918,-81.49367,28.599451,-81.496868
+52_1,2,Religious or community activities,sg:c87bda74ffd74d1fb09627266fbf876c,Holy Family Fitness Center,0.6452064356525181,0.86,5,Religious Organizations,non_worker,3398.0,3398.0,taz_specific,0,28.603918,-81.49367,28.6090274,-81.4968002
+52_1,3,home,,Home,0.0,1.0,5,home,non_worker,3398.0,3398.0,taz_specific,,28.603918,-81.49367,28.603918075561523,-81.49366760253906
+52_2,0,home,,Home,0.0,1.0,5,home,non_worker,3398.0,3398.0,taz_specific,,28.608395,-81.49173,28.608394622802734,-81.49172973632812
+52_2,1,Religious or community activities,sg:63c2e56ed10f4e59a371751d4f14e5ec,Canine Companions for Independence,0.43935523453443165,0.85,4,Social Advocacy Organizations,non_worker,3398.0,3398.0,taz_specific,0,28.608395,-81.49173,28.611332,-81.49474
+52_2,2,"Buy goods (groceries, clothes, gas)",sg:c61d4adf917038d789dc3ebf14b71c0e,Pictures Mirrors,18.781155735453268,0.90000004,5,Other Miscellaneous Store Retailers,non_worker,4307.0,4307.0,taz_specific,0,28.608395,-81.49173,28.454341,-81.412906
+52_2,3,home,,Home,0.0,1.0,5,home,non_worker,3398.0,3398.0,taz_specific,,28.608395,-81.49173,28.608394622802734,-81.49172973632812
+53_1,0,home,,Home,0.0,1.0,5,home,non_worker,3398.0,3398.0,taz_specific,,28.608103,-81.48668,28.608102798461914,-81.48667907714844
+53_1,1,Religious or community activities,sg:49c07f4a093e4dbcbb883214c464dbfe,Eglise De Dieu Maison De Reconfort Inc,0.43836038187691595,0.85,5,Religious Organizations,non_worker,3398.0,3398.0,taz_specific,0,28.608103,-81.48668,28.60417,-81.486368
+53_1,2,"Buy goods (groceries, clothes, gas)",sg:2c74f701f881335ba87733d595fbf47c,Western Union,0.6743826999162146,1.0,5,Activities Related to Credit Intermediation,non_worker,3398.0,3398.0,taz_specific,0,28.608103,-81.48668,28.613509,-81.483548
+53_1,3,home,,Home,0.0,1.0,5,home,non_worker,3398.0,3398.0,taz_specific,,28.608103,-81.48668,28.608102798461914,-81.48667907714844
+53_2,0,home,,Home,0.0,1.0,5,home,non_worker,3398.0,3398.0,taz_specific,,28.602959,-81.49415,28.60295867919922,-81.49414825439453
+53_2,1,Religious or community activities,sg:c87bda74ffd74d1fb09627266fbf876c,Holy Family Fitness Center,0.7227672657424942,0.85,4,Religious Organizations,non_worker,3398.0,3398.0,taz_specific,0,28.602959,-81.49415,28.6090274,-81.4968002
+53_2,2,"Buy goods (groceries, clothes, gas)",sg:d6264d3d0f2f424a9b4451b6f0c47bdd,Spice World Inc,18.93059824971567,0.90000004,5,Other Miscellaneous Manufacturing,non_worker,4307.0,4307.0,taz_specific,0,28.602959,-81.49415,28.447191,-81.41595
+53_2,3,home,,Home,0.0,1.0,5,home,non_worker,3398.0,3398.0,taz_specific,,28.602959,-81.49415,28.60295867919922,-81.49414825439453
+54_1,0,home,,Home,0.0,1.0,5,home,non_worker,3398.0,3398.0,taz_specific,,28.607628,-81.493484,28.607627868652344,-81.49348449707031
+54_1,1,Religious or community activities,sg:c87bda74ffd74d1fb09627266fbf876c,Holy Family Fitness Center,0.35914458572173236,0.85,5,Religious Organizations,non_worker,3398.0,3398.0,taz_specific,0,28.607628,-81.493484,28.6090274,-81.4968002
+54_1,2,"Buy goods (groceries, clothes, gas)",sg:097d6883c17745389ef7857916173fc6,Advance Auto Parts,0.7214918017782534,1.0,5,"Automotive Parts, Accessories, and Tire Stores",non_worker,3398.0,3398.0,taz_specific,0,28.607628,-81.493484,28.612128,-81.498809
+54_1,3,home,,Home,0.0,1.0,5,home,non_worker,3398.0,3398.0,taz_specific,,28.607628,-81.493484,28.607627868652344,-81.49348449707031
+54_2,0,home,,Home,0.0,1.0,5,home,non_worker,3398.0,3398.0,taz_specific,,28.610205,-81.48481,28.610204696655273,-81.48480987548828
+54_2,1,"Buy food (go to the restaurant, food, carry-out)",sg:dc38ceb4370433f786cac71d9df1a587,New Beginning Pincho Y Algo Mas,0.4234586899838892,0.88,5,Restaurants and Other Eating Places,non_worker,3398.0,3398.0,taz_specific,0,28.610205,-81.48481,28.613641,-81.48294
+54_2,2,"Buy goods (groceries, clothes, gas)",sg:56ee525e162746e8b9bf8304c137f09a,Dollar General,0.3918284996759249,0.91,5,"General Merchandise Stores, including Warehouse Clubs and Supercenters",non_worker,3398.0,3398,taz_specific,3,28.610205,-81.48481,28.613551,-81.483552
+54_2,3,home,,Home,0.0,1.0,5,home,non_worker,3398.0,3398.0,taz_specific,,28.610205,-81.48481,28.610204696655273,-81.48480987548828
+55_1,0,home,,Home,0.0,1.0,5,home,non_worker,3398.0,3398.0,taz_specific,,28.60456,-81.49411,28.60456085205078,-81.49411010742188
+55_1,1,Religious or community activities,sg:c87bda74ffd74d1fb09627266fbf876c,Holy Family Fitness Center,0.5618116452886076,0.85,5,Religious Organizations,non_worker,3398.0,3398.0,taz_specific,0,28.60456,-81.49411,28.6090274,-81.4968002
+55_1,2,"Buy goods (groceries, clothes, gas)",sg:8fcc2a1db9c13759a1cf616a948e0508,Western Union,0.62875258137275,1.0,5,Activities Related to Credit Intermediation,non_worker,3398.0,3398.0,taz_specific,0,28.60456,-81.49411,28.599451,-81.496868
+55_1,3,home,,Home,0.0,1.0,5,home,non_worker,3398.0,3398.0,taz_specific,,28.60456,-81.49411,28.60456085205078,-81.49411010742188
+55_2,0,home,,Home,0.0,1.0,5,home,non_worker,3398.0,3398.0,taz_specific,,28.606735,-81.490135,28.606735229492188,-81.4901351928711
+55_2,1,"Buy food (go to the restaurant, food, carry-out)",sg:d9bc7c87db5f4346b918ecd2b84d16f0,Ultimate Entertrainment Orlando,0.3152944369379337,0.88,5,Restaurants and Other Eating Places,non_worker,3398.0,3398.0,taz_specific,0,28.606735,-81.490135,28.6095662,-81.4903179
+55_2,2,"Buy goods (groceries, clothes, gas)",sg:56ee525e162746e8b9bf8304c137f09a,Dollar General,0.9936614293200555,0.91,5,"General Merchandise Stores, including Warehouse Clubs and Supercenters",non_worker,3398.0,3398,taz_specific,3,28.606735,-81.490135,28.613551,-81.483552
+55_2,3,home,,Home,0.0,1.0,5,home,non_worker,3398.0,3398.0,taz_specific,,28.606735,-81.490135,28.606735229492188,-81.4901351928711
+56_1,0,home,,Home,0.0,1.0,5,home,non_worker,3398.0,3398.0,taz_specific,,28.606247,-81.489265,28.606246948242188,-81.48926544189453
+56_1,1,"Buy food (go to the restaurant, food, carry-out)",sg:d9bc7c87db5f4346b918ecd2b84d16f0,Ultimate Entertrainment Orlando,0.3831170197399522,0.88,5,Restaurants and Other Eating Places,non_worker,3398.0,3398.0,taz_specific,0,28.606247,-81.489265,28.6095662,-81.4903179
+56_1,2,"Buy goods (groceries, clothes, gas)",sg:2c74f701f881335ba87733d595fbf47c,Western Union,0.9816139027007116,1.0,5,Activities Related to Credit Intermediation,non_worker,3398.0,3398.0,taz_specific,0,28.606247,-81.489265,28.613509,-81.483548
+56_1,3,home,,Home,0.0,1.0,5,home,non_worker,3398.0,3398.0,taz_specific,,28.606247,-81.489265,28.606246948242188,-81.48926544189453
+56_2,0,home,,Home,0.0,1.0,5,home,non_worker,3398.0,3398.0,taz_specific,,28.60886,-81.49131,28.60886001586914,-81.4913101196289
+56_2,1,Religious or community activities,sg:63c2e56ed10f4e59a371751d4f14e5ec,Canine Companions for Independence,0.43319453909621874,0.85,5,Social Advocacy Organizations,non_worker,3398.0,3398.0,taz_specific,0,28.60886,-81.49131,28.611332,-81.49474
+56_2,2,"Buy goods (groceries, clothes, gas)",sg:139727c546c43cb291340e7bbc3b95ce,Zesty Brands,18.42291963648172,0.89500004,5,Bakeries and Tortilla Manufacturing,non_worker,4307.0,4307,taz_specific,1,28.60886,-81.49131,28.460357,-81.407687
+56_2,3,home,,Home,0.0,1.0,5,home,non_worker,3398.0,3398.0,taz_specific,,28.60886,-81.49131,28.60886001586914,-81.4913101196289
+57_1,0,home,,Home,0.0,1.0,5,home,non_worker,3398.0,3398.0,taz_specific,,28.611666,-81.48581,28.611665725708008,-81.48580932617188
+57_1,1,Religious or community activities,sg:f3b5481b6f734e26be99e8d3712c450b,Orlando Free Presbyterian Church,0.5541791144561964,0.85,5,Religious Organizations,non_worker,3398.0,3398.0,taz_specific,0,28.611666,-81.48581,28.613455,-81.491108
+57_1,2,"Buy goods (groceries, clothes, gas)",sg:139727c546c43cb291340e7bbc3b95ce,Zesty Brands,18.474644213421318,0.795,4,Bakeries and Tortilla Manufacturing,non_worker,4307.0,4307,taz_specific,1,28.611666,-81.48581,28.460357,-81.407687
+57_1,3,home,,Home,0.0,1.0,5,home,non_worker,3398.0,3398.0,taz_specific,,28.611666,-81.48581,28.611665725708008,-81.48580932617188
+57_2,0,home,,Home,0.0,1.0,5,home,non_worker,3398.0,3398.0,taz_specific,,28.610916,-81.49597,28.610916137695312,-81.4959716796875
+57_2,1,"Buy food (go to the restaurant, food, carry-out)",sg:df9afc41f3864795a706d80f0ab8817b,Shaws Ooh Wee,0.3075348116852594,0.94000006,5,Restaurants and Other Eating Places,non_worker,3398.0,3398.0,taz_specific,0,28.610916,-81.49597,28.612138,-81.498798
+57_2,2,"Buy goods (groceries, clothes, gas)",sg:dca7843b63583f85824257bc05e4ea50,MoneyPass ATM,0.30636498898359593,1.0,5,Depository Credit Intermediation,non_worker,3398.0,3398.0,taz_specific,0,28.610916,-81.49597,28.612976,-81.498056
+57_2,3,home,,Home,0.0,1.0,5,home,non_worker,3398.0,3398.0,taz_specific,,28.610916,-81.49597,28.610916137695312,-81.4959716796875
+58_1,0,home,,Home,0.0,1.0,5,home,non_worker,3398.0,3398.0,taz_specific,,28.61119,-81.49701,28.611190795898438,-81.49700927734375
+58_1,1,Religious or community activities,sg:66efd9ff58cd39cbafc2114a50b55645,Orlando Christ Community Church,0.08166319286059347,0.85,5,Religious Organizations,non_worker,3398.0,3398.0,taz_specific,0,28.61119,-81.49701,28.610802,-81.497719
+58_1,2,"Buy goods (groceries, clothes, gas)",sg:139727c546c43cb291340e7bbc3b95ce,Zesty Brands,18.905941683670825,0.71750003,4,Bakeries and Tortilla Manufacturing,non_worker,4307.0,4307,taz_specific,1,28.61119,-81.49701,28.460357,-81.407687
+58_1,3,home,,Home,0.0,1.0,5,home,non_worker,3398.0,3398.0,taz_specific,,28.61119,-81.49701,28.611190795898438,-81.49700927734375
+58_2,0,home,,Home,0.0,1.0,5,home,non_worker,3398.0,3398.0,taz_specific,,28.61013,-81.48474,28.610130310058594,-81.4847412109375
+58_2,1,"Buy food (go to the restaurant, food, carry-out)",sg:dc38ceb4370433f786cac71d9df1a587,New Beginning Pincho Y Algo Mas,0.4281410008160046,0.88,5,Restaurants and Other Eating Places,non_worker,3398.0,3398.0,taz_specific,0,28.61013,-81.48474,28.613641,-81.48294
+58_2,2,"Buy goods (groceries, clothes, gas)",sg:2c74f701f881335ba87733d595fbf47c,Western Union,0.3933347314341752,0.90000004,5,Activities Related to Credit Intermediation,non_worker,3398.0,3398.0,taz_specific,0,28.61013,-81.48474,28.613509,-81.483548
+58_2,3,home,,Home,0.0,1.0,5,home,non_worker,3398.0,3398.0,taz_specific,,28.61013,-81.48474,28.610130310058594,-81.4847412109375
+59_1,0,home,,Home,0.0,1.0,5,home,non_worker,3398.0,3398.0,taz_specific,,28.608028,-81.486275,28.608028411865234,-81.48627471923828
+59_1,1,Religious or community activities,sg:49c07f4a093e4dbcbb883214c464dbfe,Eglise De Dieu Maison De Reconfort Inc,0.4291324524194536,0.85,5,Religious Organizations,non_worker,3398.0,3398.0,taz_specific,0,28.608028,-81.486275,28.60417,-81.486368
+59_1,2,"Buy goods (groceries, clothes, gas)",sg:2c74f701f881335ba87733d595fbf47c,Western Union,0.6650067441471689,1.0,5,Activities Related to Credit Intermediation,non_worker,3398.0,3398.0,taz_specific,0,28.608028,-81.486275,28.613509,-81.483548
+59_1,3,home,,Home,0.0,1.0,5,home,non_worker,3398.0,3398.0,taz_specific,,28.608028,-81.486275,28.608028411865234,-81.48627471923828
+59_2,0,home,,Home,0.0,1.0,5,home,non_worker,3398.0,3398.0,taz_specific,,28.611637,-81.48639,28.611637115478516,-81.48638916015625
+59_2,1,"Buy goods (groceries, clothes, gas)",sg:2c74f701f881335ba87733d595fbf47c,Western Union,0.3467596320848391,0.85,5,Activities Related to Credit Intermediation,non_worker,3398.0,3398.0,taz_specific,0,28.611637,-81.48639,28.613509,-81.483548
+59_2,2,Religious or community activities,sg:f3b5481b6f734e26be99e8d3712c450b,Orlando Free Presbyterian Church,0.5030333666586602,0.86,5,Religious Organizations,non_worker,3398.0,3398.0,taz_specific,0,28.611637,-81.48639,28.613455,-81.491108
+59_2,3,home,,Home,0.0,1.0,5,home,non_worker,3398.0,3398.0,taz_specific,,28.611637,-81.48639,28.611637115478516,-81.48638916015625
+60_1,0,home,,Home,0.0,1.0,5,home,non_worker,3398.0,3398.0,taz_specific,,28.611052,-81.48643,28.611051559448242,-81.4864273071289
+60_1,1,Religious or community activities,sg:f3b5481b6f734e26be99e8d3712c450b,Orlando Free Presbyterian Church,0.5293292252774701,0.85,5,Religious Organizations,non_worker,3398.0,3398.0,taz_specific,0,28.611052,-81.48643,28.613455,-81.491108
+60_1,2,"Buy goods (groceries, clothes, gas)",sg:2c74f701f881335ba87733d595fbf47c,Western Union,0.3920029904349327,0.90000004,5,Activities Related to Credit Intermediation,non_worker,3398.0,3398.0,taz_specific,0,28.611052,-81.48643,28.613509,-81.483548
+60_1,3,home,,Home,0.0,1.0,5,home,non_worker,3398.0,3398.0,taz_specific,,28.611052,-81.48643,28.611051559448242,-81.4864273071289
+60_2,0,home,,Home,0.0,1.0,5,home,non_worker,3398.0,3398.0,taz_specific,,28.608076,-81.48933,28.608076095581055,-81.48932647705078
+60_2,1,"Buy goods (groceries, clothes, gas)",sg:56ee525e162746e8b9bf8304c137f09a,Dollar General,0.829674360181493,0.8125,5,"General Merchandise Stores, including Warehouse Clubs and Supercenters",non_worker,3398.0,3398,taz_specific,3,28.608076,-81.48933,28.613551,-81.483552
+60_2,2,Religious or community activities,sg:49c07f4a093e4dbcbb883214c464dbfe,Eglise De Dieu Maison De Reconfort Inc,0.5215950466944106,0.86,5,Religious Organizations,non_worker,3398.0,3398.0,taz_specific,0,28.608076,-81.48933,28.60417,-81.486368
+60_2,3,home,,Home,0.0,1.0,5,home,non_worker,3398.0,3398.0,taz_specific,,28.608076,-81.48933,28.608076095581055,-81.48932647705078
+61_1,0,home,,Home,0.0,1.0,5,home,non_worker,3398.0,3398.0,taz_specific,,28.611628,-81.49393,28.61162757873535,-81.49392700195312
+61_1,1,Religious or community activities,sg:63c2e56ed10f4e59a371751d4f14e5ec,Canine Companions for Independence,0.08589861557303477,0.85,4,Social Advocacy Organizations,non_worker,3398.0,3398.0,taz_specific,0,28.611628,-81.49393,28.611332,-81.49474
+61_1,2,"Buy goods (groceries, clothes, gas)",sg:ad830e7c6c15305e8de049d092754820,Shared Pharmacy Services,18.915269776922795,0.8125,5,Health and Personal Care Stores,non_worker,4307.0,4307.0,taz_specific,0,28.611628,-81.49393,28.456146,-81.415374
+61_1,3,home,,Home,0.0,1.0,5,home,non_worker,3398.0,3398.0,taz_specific,,28.611628,-81.49393,28.61162757873535,-81.49392700195312
+61_2,0,home,,Home,0.0,1.0,5,home,non_worker,3398.0,3398.0,taz_specific,,28.60437,-81.490746,28.6043701171875,-81.4907455444336
+61_2,1,"Buy food (go to the restaurant, food, carry-out)",sg:d9bc7c87db5f4346b918ecd2b84d16f0,Ultimate Entertrainment Orlando,0.5792842845188279,0.94000006,5,Restaurants and Other Eating Places,non_worker,3398.0,3398.0,taz_specific,0,28.60437,-81.490746,28.6095662,-81.4903179
+61_2,2,"Buy goods (groceries, clothes, gas)",sg:8fcc2a1db9c13759a1cf616a948e0508,Western Union,0.8102113920736771,1.0,5,Activities Related to Credit Intermediation,non_worker,3398.0,3398.0,taz_specific,0,28.60437,-81.490746,28.599451,-81.496868
+61_2,3,home,,Home,0.0,1.0,5,home,non_worker,3398.0,3398.0,taz_specific,,28.60437,-81.490746,28.6043701171875,-81.4907455444336
+62_1,0,home,,Home,0.0,1.0,5,home,non_worker,3398.0,3398.0,taz_specific,,28.604301,-81.4924,28.60430145263672,-81.49240112304688
+62_1,1,"Buy food (go to the restaurant, food, carry-out)",sg:d9bc7c87db5f4346b918ecd2b84d16f0,Ultimate Entertrainment Orlando,0.6197308359425298,0.94000006,5,Restaurants and Other Eating Places,non_worker,3398.0,3398.0,taz_specific,0,28.604301,-81.4924,28.6095662,-81.4903179
+62_1,2,"Buy goods (groceries, clothes, gas)",sg:8fcc2a1db9c13759a1cf616a948e0508,Western Union,0.6935853008234666,1.0,5,Activities Related to Credit Intermediation,non_worker,3398.0,3398.0,taz_specific,0,28.604301,-81.4924,28.599451,-81.496868
+62_1,3,home,,Home,0.0,1.0,5,home,non_worker,3398.0,3398.0,taz_specific,,28.604301,-81.4924,28.60430145263672,-81.49240112304688
+62_2,0,home,,Home,0.0,1.0,5,home,non_worker,3398.0,3398.0,taz_specific,,28.612072,-81.49803,28.612071990966797,-81.49803161621094
+62_2,1,Religious or community activities,sg:66efd9ff58cd39cbafc2114a50b55645,Orlando Christ Community Church,0.144476205041021,0.85,5,Religious Organizations,non_worker,3398.0,3398.0,taz_specific,0,28.612072,-81.49803,28.610802,-81.497719
+62_2,2,"Buy goods (groceries, clothes, gas)",sg:139727c546c43cb291340e7bbc3b95ce,Zesty Brands,19.038990697318344,0.89500004,5,Bakeries and Tortilla Manufacturing,non_worker,4307.0,4307,taz_specific,1,28.612072,-81.49803,28.460357,-81.407687
+62_2,3,home,,Home,0.0,1.0,5,home,non_worker,3398.0,3398.0,taz_specific,,28.612072,-81.49803,28.612071990966797,-81.49803161621094
+63_1,0,home,,Home,0.0,1.0,5,home,non_worker,3398.0,3398.0,taz_specific,,28.61161,-81.49248,28.611610412597656,-81.49247741699219
+63_1,1,"Buy goods (groceries, clothes, gas)",sg:dca7843b63583f85824257bc05e4ea50,MoneyPass ATM,0.5653324210665877,0.95000005,5,Depository Credit Intermediation,non_worker,3398.0,3398.0,taz_specific,0,28.61161,-81.49248,28.612976,-81.498056
+63_1,2,Religious or community activities,sg:d498957dc2c44f63958d20916388641e,Freedom Fellowship Church,0.22534046360018323,0.86,5,Religious Organizations,non_worker,3398.0,3398.0,taz_specific,0,28.61161,-81.49248,28.6136033,-81.4920585
+63_1,3,home,,Home,0.0,1.0,5,home,non_worker,3398.0,3398.0,taz_specific,,28.61161,-81.49248,28.611610412597656,-81.49247741699219

@@ -1,0 +1,36 @@
+SIMILARITY-BASED AGENT MATCHING — REPORT
+Generated: 2026-05-28 20:22
+
+METHODOLOGY:
+  Feature vector (6D, Manhattan distance):
+    [home_lat_norm, home_lon_norm,
+     act1_TAZ_centroid_lat_norm, act1_TAZ_centroid_lon_norm,
+     act2_TAZ_centroid_lat_norm, act2_TAZ_centroid_lon_norm]
+  Primary search radius  : 15.0 km
+  Fallback search radius : 30.0 km
+  Top-K sampling         : 5 (diversity)
+
+COMBO RESOLUTION (2,562 unique employment+home_TAZ combos):
+  Resolved in primary radius  (15.0 km) :    2,467  (96.3%)
+  Resolved in fallback radius (30.0 km) :        0  (0.0%)
+  County-wide (no nearby found)               :        0  (0.0%)
+  Failed (no TAZ centroid)                    :       95  (3.7%)
+
+ROW UPDATES:
+  Rows re-matched          :  2,620,492
+  Activity type changed    :    954,954
+  POI re-assigned          :  1,310,246
+    Ring 0 (exact TAZ)     :  1,192,867  (91.0%)
+    Ring 1 (adjacent)      :    109,093  (8.3%)
+    Ring 2 (regional)      :      6,675  (0.5%)
+    Ring 3 (county)        :      1,611  (0.1%)
+
+FINAL MATCH TYPE DISTRIBUTION:
+  taz_specific                    2,922,484  (52.1%)
+  similarity_nearby               2,620,492  (46.7%)
+  emp_only                           67,340  (1.2%)
+
+DISTANCE STATS (non-home, n=2,805,158):
+  Median : 0.85 km
+  Mean   : 3.74 km
+  P95    : 18.90 km

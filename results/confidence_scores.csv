@@ -1,0 +1,4 @@
+confidence_group,score_range,share
+high,4-5,0.963
+medium,3,0.025
+low,1-2,0.012

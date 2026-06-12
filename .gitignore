@@ -1,0 +1,35 @@
+# Large, licensed, or generated data
+*.parquet
+data/*.csv
+results/*.csv
+veraset_shards/
+synthetic_population/
+output/
+
+# Keep the small public examples
+!data/sample_data.csv
+!data/trajectory_matching_sample_500.parquet
+!results/sample_output.csv
+!results/confidence_scores.csv
+!results/trajectory_matching_sample_500.csv
+!results/poi_lookup.parquet
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.coverage
+htmlcov/
+.venv/
+venv/
+env/
+
+# Editors and operating systems
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+*.log
+*.tmp

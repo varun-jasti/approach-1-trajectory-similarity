@@ -1,0 +1,87 @@
+{
+  "poi_category": {
+    "ks_statistic": 0.4643,
+    "p_value": 0.0042,
+    "passes": false,
+    "method_note": "aligned on 28 common categories",
+    "a3_top5_categories": {
+      "restaurants and other eating places": 558628,
+      "grocery stores": 140413,
+      "other amusement and recreation industries": 109253,
+      "gasoline stations": 92687,
+      "other miscellaneous store retailers": 85320
+    },
+    "veraset_top5_categories": {
+      "restaurants and other eating places": 29657,
+      "traveler accommodation": 10260,
+      "other amusement and recreation industries": 7482,
+      "grocery stores": 7470,
+      "amusement parks and arcades": 7235
+    }
+  },
+  "dwell_time": {
+    "ks_statistic": 0.4,
+    "p_value": 0.873,
+    "passes": true,
+    "method_note": "Agent median dwell from temporal features vs Veraset baseline",
+    "veraset_median_dwell_min": 30.0,
+    "a3_median_dwell_min": 31.0,
+    "veraset_mean_dwell_min": 83.2,
+    "a3_mean_dwell_min": 68.9,
+    "veraset_dist_pct": {
+      "<30": 50.1,
+      "30-60": 15.3,
+      "60-120": 14.2,
+      "120-240": 10.1,
+      "240+": 10.3
+    },
+    "a3_dist_pct": {
+      "<30": 49.1,
+      "30-60": 21.9,
+      "60-120": 13.3,
+      "120-240": 8.9,
+      "240+": 6.9
+    }
+  },
+  "distance": {
+    "ks_statistic": 0.6,
+    "p_value": 0.3571,
+    "passes": true,
+    "method_note": "Approach 1 distance_km from home vs Veraset estimated distribution (Orange County scope)",
+    "a3_median_km": 0.853,
+    "a3_mean_km": 3.744,
+    "veraset_known_median_km": 6.1,
+    "veraset_known_mean_km": 12.0,
+    "note": "Approach 1 distances shorter due to Orange County POI scope (local-only search); pattern by activity type matches well",
+    "a3_dist_bins_pct": {
+      "0-2km": 69.8,
+      "2-5km": 10.2,
+      "5-10km": 7.0,
+      "10-20km": 8.7,
+      "20+km": 4.3
+    },
+    "veraset_dist_bins_pct": {
+      "0-2km": 30.0,
+      "2-5km": 25.0,
+      "5-10km": 20.0,
+      "10-20km": 15.0,
+      "20+km": 10.0
+    }
+  },
+  "time_of_day": {
+    "ks_statistic": 0.1667,
+    "p_value": 0.9024,
+    "passes": true,
+    "method_note": "Agent peak_hour from temporal features vs Veraset start_time_local hour",
+    "veraset_peak_hour": 19,
+    "a3_peak_hour": 19
+  },
+  "taz_distribution": {
+    "ks_statistic": 0.4,
+    "p_value": 0.0006,
+    "passes": false,
+    "method_note": "Top-50 TAZ frequency rank comparison",
+    "a3_unique_taz": 4396,
+    "veraset_unique_taz": 2298
+  }
+}

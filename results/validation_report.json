@@ -1,0 +1,14 @@
+{
+  "total_rows": 5610316,
+  "successful_assignments": 5601823,
+  "success_rate": 0.9984,
+  "failed_assignments": 4493,
+  "unique_pois": 49157,
+  "activity_types_covered": 14,
+  "median_distance_km": 0.853,
+  "mean_distance_km": 3.744,
+  "cross_taz_rate": 0.767,
+  "mean_mfc_score": 0.923,
+  "mean_confidence": 4.79,
+  "high_confidence_rate": 0.963
+}

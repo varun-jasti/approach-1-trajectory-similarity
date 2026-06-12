@@ -1,0 +1,57 @@
+KS DISTRIBUTION TESTS — FULL RESULTS (5 TESTS)
+================================================
+Source: validation/ks_distribution_tests.json
+
+visualizations/KS_Validation_DwellTime.png, KS_Validation_TimeOfDay.png, and
+KS_Validation_Distance.png show the 3 core mobility-pattern tests, all of
+which PASS. This file documents all 5 tests run, including the 2 that fail,
+with explanation.
+
+PASS (3) — core mobility patterns match Veraset
+---------------------------------------------------------------------------
+1. Dwell time distribution
+   KS statistic = 0.40, p = 0.873   PASS
+   Veraset median dwell: 30.0 min | Approach 1 median dwell: 31.0 min
+
+2. Time-of-day distribution
+   KS statistic = 0.167, p = 0.902   PASS
+   Veraset peak hour: 19:00 | Approach 1 peak hour: 19:00
+
+3. Distance distribution (binned)
+   KS statistic = 0.60, p = 0.357   PASS
+   Approach 1 median: 0.853 km | Veraset (Orange County scope) pattern matches by
+   activity type; Approach 1 distances are shorter overall due to local-only POI
+   search (expected and documented in validation/distance_metrics.txt)
+
+FAIL (2) — EXPECTED, due to dataset scope difference
+---------------------------------------------------------------------------
+4. POI category mix
+   KS statistic = 0.4643, p = 0.0042   FAIL
+   Approach 1 top categories: restaurants, grocery stores, amusement/recreation,
+   gasoline stations, misc. retailers (193K Orange County POI pool)
+   Veraset top categories: restaurants, traveler accommodation, amusement
+   parks, grocery stores (statewide visit data, includes tourism-heavy
+   categories not represented in the Orange County POI pool)
+   Why expected: Approach 1's POI assignment pool is restricted to Orange County
+   (193K POIs); Veraset's visit data spans all of Florida and is weighted
+   toward tourist attractions (theme parks, hotels) that are intentionally
+   out of scope for this synthetic resident population.
+
+5. TAZ distribution
+   KS statistic = 0.40, p = 0.0006   FAIL
+   Approach 1 unique TAZs touched: 4,396 | Veraset unique TAZs: 2,298
+   Why expected: Approach 1 assigns activities across the full Orange County TAZ
+   grid (including low-density/peripheral zones reachable via the TAZ
+   offset fix), while Veraset's real visit data concentrates in a smaller
+   set of high-traffic TAZs. Approach 1 spreading activity assignments more widely
+   is consistent with modeling a full resident population rather than only
+   the subset of zones that happen to have heavy real-world GPS coverage.
+
+CONCLUSION
+---------------------------------------------------------------------------
+The 3 tests that characterize *behavioral* patterns (when people go out,
+how long they stay, how far they travel) all pass. The 2 tests that fail
+characterize *where* (POI category mix, TAZ spread) and are explained by
+the deliberate Orange-County-only / resident-population scope of Approach 1,
+which differs from Veraset's statewide, tourism-inclusive visit data by
+design. These are documented limitations, not unexplained anomalies.

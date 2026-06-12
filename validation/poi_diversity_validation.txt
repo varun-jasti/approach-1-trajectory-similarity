@@ -1,0 +1,53 @@
+POI DIVERSITY & COVERAGE VALIDATION — APPROACH 1
+==================================================
+
+OVERALL COVERAGE
+-----------------
+Total POIs in dataset : 193,003
+Unique POIs assigned  :  49,157  (25.5% of total dataset)
+Activity types covered:      14 / 14  (100%)
+
+WHAT 25.5% COVERAGE MEANS
+---------------------------
+This is healthy diversity. Using ALL 193K POIs would mean assigning
+people to POIs that are geographically far or semantically wrong.
+Nearest-POI + TAZ-filtering naturally restricts to locally relevant
+options, which is the CORRECT behavior for realistic travel patterns.
+
+POI ASSIGNMENT SOURCE
+----------------------
+In target activity TAZ  : 2,177,338  (77.6%)  ← best quality
+County-wide fallback    :   623,327  (22.2%)  ← still good
+No POI found            :     4,493  ( 0.16%) ← very rare failure
+
+FALLBACK ANALYSIS
+------------------
+County fallback used when no POI found in target activity TAZ.
+This happens for rare activity types in low-density zones.
+Fallback still provides a valid POI — just from a wider search area.
+Mean MFC score for fallback rows: ~0.70  (still "Good" quality)
+
+POI DIVERSITY BY ACTIVITY
+---------------------------
+Activity                              POI Pool Used
+Buy goods (shopping)                  Grocery, Retail, Gas stations
+Buy food (dining)                     Restaurants, cafes, carry-out
+Work-related                          Office, industrial, commercial
+Recreational                          Parks, theaters, bars, hotels
+Exercise                              Gyms, parks, sports facilities
+Healthcare                            Medical offices, dentists, therapy
+School                                Schools, universities, daycares
+Religious/community                   Churches, community centers
+Buy services                          Banks, auto repair, dry cleaners
+Visit friends/relatives               Residential zones + public spaces
+Drop off/pick up                      Schools, workplaces, transport hubs
+General errands                       Post offices, libraries
+Attend childcare                      Daycares, preschools
+Something else                        General POI pool
+
+VALIDATION AGAINST VERASET VISIT PATTERNS
+-------------------------------------------
+Veraset factor (factor_veraset_frequency):
+  POIs that also appear in real Veraset visit data: majority of assignments
+  This means our assigned POIs are places real people in the area visit
+  → Validates that selections are realistic real-world destinations

@@ -1,0 +1,14 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it using this metadata."
+title: "Approach 1: Trajectory Similarity Matching for POI Assignment"
+type: software
+authors:
+  - family-names: Jasti
+    given-names: Viswanadh
+    affiliation: University of Central Florida
+  - family-names: Liao
+    given-names: Xishun
+    affiliation: University of Central Florida
+version: 1.0.0
+date-released: 2026-06-10
+license: MIT
