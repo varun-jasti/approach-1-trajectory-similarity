@@ -1,7 +1,7 @@
 # Trajectory Similarity Matching for Synthetic Population Activity Assignment: A GPS-Data-Driven Approach
 
-**Draft version 1.0 — 2026-05-30**
-**Status:** Working paper — not for citation without author permission
+**Draft version 1.0 — 2026-06-11**
+**Status:** Working paper 
 
 ---
 
