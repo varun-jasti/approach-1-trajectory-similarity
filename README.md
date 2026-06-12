@@ -17,9 +17,7 @@ similarity matching on Veraset GPS mobility data.
 | Mean confidence | **4.79 / 5** |
 | High confidence (4-5) | 96.3% |
 
-The working archive historically uses the `A3_*` prefix for trajectory-based
-outputs. Those filenames are retained where needed for traceability, while
-this public repository consistently identifies the method as Approach 1.
+
 
 ## Visualizations — Where to Start
 
@@ -97,8 +95,8 @@ They contain project-specific paths and should be configured before execution.
 - `results/sample_output.csv`: representative assignment output
 - `results/summary_statistics.json`: validated headline metrics
 
-The full `A3_final.parquet` output and licensed source data are not included.
-`A3_final.parquet` is approximately 135 MB, above GitHub's ordinary 100 MB
+The full output and licensed source data are not included.
+Final output is approximately 135 MB, above GitHub's ordinary 100 MB
 per-file limit. Use Git LFS or an institutional data repository for full-data
 distribution.
 
@@ -124,22 +122,16 @@ distribution.
 - [`visualizations/KS_Validation_*.png`](visualizations/) (3 files)
 - [`validation/confidence_metrics.txt`](validation/confidence_metrics.txt)
 
-**Full understanding (30 minutes)**
+**Full understanding**
 - [Method](docs/METHOD.md)
 - [`validation/taz_fix_validation.txt`](validation/taz_fix_validation.txt)
 - All figures in [`visualizations/`](visualizations/)
 
-**For simulation integration**
-- [`results/poi_lookup.parquet`](results/poi_lookup.parquet)
-- [`results/sample_output.csv`](results/sample_output.csv)
-- [Data dictionary](data/data_dictionary.md)
+## Authors
 
-## Authors and Funding
-
-- Viswanadh Jasti, University of Central Florida
 - Professor Xishun Liao, University of Central Florida
+- Viswanadh Jasti, University of Central Florida
 
-This research is supported through the DARPA HAYSTACK project.
 
 ## License and Citation
 
