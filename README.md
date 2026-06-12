@@ -2,8 +2,7 @@
 
 Complete implementation and research artifacts for assigning real-world points
 of interest (POIs) to 1.4 million synthetic travel agents using trajectory
-similarity matching on Veraset GPS mobility data. This work supports the DARPA
-HAYSTACK Phase 3 mobility workflow.
+similarity matching on Veraset GPS mobility data.
 
 ## Key Results
 
