@@ -11,7 +11,7 @@ Recommended starting points:
   distance metrics (median 0.853 km, matches `validation/distance_metrics.txt`
   and the README)
 - `Confidence_distribution.png`
-- `KS_Validation_DwellTime.png`, `KS_Validation_TimeOfDay.png`, `KS_Validation_Distance.png`
+- `KS_Validation_Distance.png`
 - `SyntheticVsReal_DistanceScatter.png`, `SyntheticVsReal_MatchQuality.png`
 - `Case_study_examples.png`
 
@@ -45,13 +45,15 @@ Plain-language explanation of what each of the 18 figures shows.
   are statistically similar (PASS) — note the synthetic distances skew
   shorter due to the limited local POI scope.
 
-- **`KS_Validation_DwellTime.png`** — Same KS test, but for how long agents
-  stay at each activity (dwell time). A PASS result means the synthetic
-  dwell-time pattern matches real behavior.
-
-- **`KS_Validation_TimeOfDay.png`** — Same KS test, but for what time of
-  day activities happen. PASS (p = 0.902), and both real and synthetic
-  data peak around 7 PM, showing realistic daily rhythms.
+> **Note on activity timing (dwell time / time-of-day):** earlier versions of
+> this folder included `KS_Validation_DwellTime.png` and
+> `KS_Validation_TimeOfDay.png`, validating the *activity timing layer*
+> (start time / duration per activity step). That timing layer is separate
+> work from this repo's POI-assignment scope, and its methodology is still
+> being finalized — see
+> `09_SIMULATION_INTEGRATION/03_TIMING_VALIDATION_PENDING_REVIEW/` in the
+> parent project. These figures will be added back here once the timing
+> methodology is confirmed.
 
 ### Quality and confidence scoring
 
@@ -133,12 +135,14 @@ Plain-language explanation of what each of the 18 figures shows.
 
 ## Notes on specific figures
 
-- **`KS_Validation_DwellTime.png`**, **`KS_Validation_TimeOfDay.png`**, and
-  **`KS_Validation_Distance.png`** (split from a single combined figure) show
-  the 3 core mobility-pattern KS tests (dwell time, time-of-day, distance),
-  all of which PASS. Two additional tests (POI category mix, TAZ distribution)
-  FAIL for reasons explained in `../validation/ks_test_full_results.txt` —
-  read that file alongside these figures for the complete picture.
+- **`KS_Validation_Distance.png`** (split from a single combined figure) shows
+  the core spatial mobility-pattern KS test (distance), which PASSes. Two
+  additional tests (POI category mix, TAZ distribution) FAIL for reasons
+  explained in `../validation/ks_test_full_results.txt` — read that file
+  alongside this figure for the complete picture. (The dwell-time and
+  time-of-day KS figures that were previously here have been moved pending
+  confirmation of the activity-timing-layer methodology — see the note
+  above.)
 
 - **`SyntheticVsReal_DistanceScatter.png`** and **`SyntheticVsReal_MatchQuality.png`**
   (split from a single combined figure) show the per-pair distance comparison

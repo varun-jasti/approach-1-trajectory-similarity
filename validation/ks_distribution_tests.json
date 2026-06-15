@@ -19,30 +19,6 @@
       "amusement parks and arcades": 7235
     }
   },
-  "dwell_time": {
-    "ks_statistic": 0.4,
-    "p_value": 0.873,
-    "passes": true,
-    "method_note": "Agent median dwell from temporal features vs Veraset baseline",
-    "veraset_median_dwell_min": 30.0,
-    "a3_median_dwell_min": 31.0,
-    "veraset_mean_dwell_min": 83.2,
-    "a3_mean_dwell_min": 68.9,
-    "veraset_dist_pct": {
-      "<30": 50.1,
-      "30-60": 15.3,
-      "60-120": 14.2,
-      "120-240": 10.1,
-      "240+": 10.3
-    },
-    "a3_dist_pct": {
-      "<30": 49.1,
-      "30-60": 21.9,
-      "60-120": 13.3,
-      "120-240": 8.9,
-      "240+": 6.9
-    }
-  },
   "distance": {
     "ks_statistic": 0.6,
     "p_value": 0.3571,
@@ -67,14 +43,6 @@
       "10-20km": 15.0,
       "20+km": 10.0
     }
-  },
-  "time_of_day": {
-    "ks_statistic": 0.1667,
-    "p_value": 0.9024,
-    "passes": true,
-    "method_note": "Agent peak_hour from temporal features vs Veraset start_time_local hour",
-    "veraset_peak_hour": 19,
-    "a3_peak_hour": 19
   },
   "taz_distribution": {
     "ks_statistic": 0.4,

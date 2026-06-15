@@ -25,7 +25,7 @@ For a quick understanding of the results, view these figures in order:
 
 1. [`Distance_Distribution_Histogram.png`](visualizations/Distance_Distribution_Histogram.png) — confirms the 0.85 km median trip distance
 2. [`Confidence_distribution.png`](visualizations/Confidence_distribution.png) — shows 96.3% of assignments are high confidence
-3. [`KS_Validation_DwellTime.png`](visualizations/KS_Validation_DwellTime.png), [`KS_Validation_TimeOfDay.png`](visualizations/KS_Validation_TimeOfDay.png), [`KS_Validation_Distance.png`](visualizations/KS_Validation_Distance.png) — behavioral pattern validation against real Veraset data (all PASS)
+3. [`KS_Validation_Distance.png`](visualizations/KS_Validation_Distance.png) — distance-pattern validation against real Veraset data (PASS)
 4. [`Archetype_breakdown.png`](visualizations/Archetype_breakdown.png) — population diversity across behavioral archetypes
 5. [`Case_study_examples.png`](visualizations/Case_study_examples.png) — real example assignments
 
