@@ -14,8 +14,8 @@ import gc, time
 t0 = time.time()
 def ts(): return f"[{time.time()-t0:>6.1f}s]"
 
-A3_PATH  = '/home/varun/projects/Veraset_Data/Approach_3/A3_with_confidence.parquet'
-OUT_PATH = '/home/varun/projects/Veraset_Data/Approach_3/A3_fixed.parquet'
+A3_PATH  = 'path/to/A3_with_confidence.parquet'
+OUT_PATH = 'path/to/A3_fixed.parquet'
 
 print("=" * 70)
 print("APPROACH 1 FIX — Row-Group Chunked Processing")
@@ -57,21 +57,19 @@ IDEAL_BOUNDS = {
 # ── Load support data once ───────────────────────────────────────────────────
 print(f"\n{ts()} Loading support data...")
 
-prof = pd.read_parquet('/home/varun/projects/Veraset_Data/Approach_3/agent_trajectory_profiles.parquet')
+prof = pd.read_parquet('path/to/agent_trajectory_profiles.parquet')
 prof = prof.set_index('caid')
 print(f"{ts()} {len(prof):,} agent profiles")
 
 poi = pd.read_csv(
-    '/home/varun/projects/Veraset_Data/Data/POI_dataset/Orlando_Metro_poi_activity_labels(in).csv',
+    'path/to/Orlando_Metro_poi_activity_labels.csv',
     usecols=['SAFEGRAPH_PLACE_ID','LOCATION_NAME','LATITUDE','LONGITUDE',
              'TOP_CATEGORY','activity_label1','activity_label2']
 ).dropna(subset=['LATITUDE','LONGITUDE'])
 print(f"{ts()} {len(poi):,} POIs")
 
 shard01 = pd.read_parquet(
-    '/home/varun/projects/Veraset_Data/final_integrated_dataset/'
-    'activity_integration_bbox_filtered/final dataset activity labelled/'
-    'final_dataset/shard01_activity_labelled_final.parquet',
+    'path/to/shard01_activity_labelled_final.parquet',
     columns=['taz_id_cfrpm7','final_latitude','final_longitude'])
 taz_lat = shard01.groupby('taz_id_cfrpm7')['final_latitude'].mean().to_dict()
 taz_lon = shard01.groupby('taz_id_cfrpm7')['final_longitude'].mean().to_dict()

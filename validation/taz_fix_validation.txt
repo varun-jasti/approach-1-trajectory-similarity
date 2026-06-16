@@ -1,7 +1,7 @@
 TAZ OFFSET FIX — VALIDATION REPORT
 =====================================
 
-PROBLEM IDENTIFIED (Professor's Feedback)
+PROBLEM IDENTIFIED
 ------------------------------------------
 Original code searched for POIs in HOME TAZ for ALL activity types.
 This ignores that real people travel to different zones for activities.

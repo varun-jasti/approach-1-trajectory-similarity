@@ -21,7 +21,7 @@ CORE (Previously Done)
 POST-CORE (This Session)
   Group A: Schema audit + clean output file
   Group B: Validation expansion + statistical precision
-  One-Day Analysis: Professor feedback response
+  One-Day Analysis: Additional validation
   Group C1: Temporal features (6D → 9D)
 ```
 
@@ -179,7 +179,7 @@ These results confirm that the reported metrics are not statistical artifacts of
 
 ---
 
-## ONE-DAY AGENT RATE ANALYSIS — Professor Feedback Response
+## ONE-DAY AGENT RATE ANALYSIS
 
 ### Question Addressed
 *"How do you handle if a person is only tracked for one day? The one-day agent rate is not low, right?"*
