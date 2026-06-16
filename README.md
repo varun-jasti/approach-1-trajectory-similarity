@@ -26,8 +26,10 @@ For a quick understanding of the results, view these figures in order:
 1. [`Distance_Distribution_Histogram.png`](visualizations/Distance_Distribution_Histogram.png) — confirms the 0.85 km median trip distance
 2. [`Confidence_distribution.png`](visualizations/Confidence_distribution.png) — shows 96.3% of assignments are high confidence
 3. [`KS_Validation_Distance.png`](visualizations/KS_Validation_Distance.png) — distance-pattern validation against real Veraset data (PASS)
-4. [`Archetype_breakdown.png`](visualizations/Archetype_breakdown.png) — population diversity across behavioral archetypes
-5. [`Case_study_examples.png`](visualizations/Case_study_examples.png) — real example assignments
+4. [`Match_Type_BeforeAfter.png`](visualizations/Match_Type_BeforeAfter.png) — fallback rate improvement: 47.9% → 1.2%
+5. [`TAZ_Ring_Fix_BeforeAfter.png`](visualizations/TAZ_Ring_Fix_BeforeAfter.png) — TAZ ring search improvement: 82.5% → 96.5%
+
+For individual agent examples across confidence levels, see [`docs/CASE_STUDIES.md`](docs/CASE_STUDIES.md).
 
 For the full figure guide, including notes on which figures are authoritative
 and known caveats, see [`visualizations/README.md`](visualizations/README.md).
@@ -119,7 +121,7 @@ distribution.
 
 **15-minute validation check**
 - [Validation report](validation/validation_report.md)
-- [`visualizations/KS_Validation_*.png`](visualizations/) (3 files)
+- [`visualizations/KS_Validation_Distance.png`](visualizations/KS_Validation_Distance.png)
 - [`validation/confidence_metrics.txt`](validation/confidence_metrics.txt)
 
 **Full understanding**
