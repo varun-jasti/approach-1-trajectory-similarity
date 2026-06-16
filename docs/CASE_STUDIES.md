@@ -1,11 +1,29 @@
-# Approach 1 — 20 Case Studies: High / Medium / Low Confidence
+# Approach 1 — Case Studies: High / Medium / Low Confidence
 
-*Generated: 2026-06-01*
+*Updated: 2026-06-16*
 
 ---
 
 **PURPOSE:** Document representative examples across all confidence tiers.
-Covers 3 confidence levels × 5 activity types. Each case: person profile → match type → assigned POI → realism verdict.
+Each case shows: person profile → archetype → assigned POI → realism verdict.
+
+---
+
+## Summary Examples (5 assignments across confidence levels)
+
+| Confidence | Person | Archetype | Activity | Assigned POI | Category | Dist (km) | MFC | Why it makes sense |
+|---|---|---|---|---|---|---|---|---|
+| Very High (5/5) | 293198_6 | LOCAL_COMMUTER | Work-related activity, or volunteer | Legacy Universal | Lessors of Real Estate | 15.0 | 0.82 | Commuter matched to office-zone POI 15 km away — typical commute pattern |
+| Very High (5/5) | 268415_3 | LOCAL_RESIDENT | Buy food (restaurant, carry-out) | Arby's | Restaurants and Other Eating Places | 4.4 | 0.96 | Exact category match, 4.4 km — ideal range for dining trip |
+| Very High (5/5) | 508003_1 | COMMUTER_VISITOR | Attend school | Andover Elementary | Elementary and Secondary Schools | 0.8 | 0.79 | School 0.8 km from home — very local, exact category match |
+| High (4/5) | 97528_2 | COMMUTER_VISITOR | Buy goods (groceries, clothes, gas) | Lukas Community Store | Grocery Stores | 1.2 | 0.81 | Grocery store 1.2 km from home — local shopping trip, good category match |
+| Medium (3/5) | 472790_8 | RECREATION_FOCUSED | Buy goods (groceries, clothes, gas) | Bravo Property Improvement | Building Material and Supplies Dealers | 0.8 | 0.68 | Hardware store for Buy goods — close category but not ideal; lower score |
+
+---
+
+## Full Case Studies (20 examples)
+
+**PURPOSE:** Covers 3 confidence levels × 5 activity types. Each case: person profile → match type → assigned POI → realism verdict.
 
 ---
 
